@@ -9,6 +9,7 @@ class ComposerStaticInita274098ef7ca61355b37a265e3bf525f
     public static $prefixLengthsPsr4 = array (
         'E' => 
         array (
+            'EqualizeDigital\\AccessibilityChecker\\Admin\\' => 43,
             'EqualizeDigital\\AccessibilityChecker\\' => 37,
         ),
         'C' => 
@@ -18,6 +19,10 @@ class ComposerStaticInita274098ef7ca61355b37a265e3bf525f
     );
 
     public static $prefixDirsPsr4 = array (
+        'EqualizeDigital\\AccessibilityChecker\\Admin\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/admin',
+        ),
         'EqualizeDigital\\AccessibilityChecker\\' => 
         array (
             0 => __DIR__ . '/../..' . '/includes/classes',
@@ -180,6 +185,26 @@ class ComposerStaticInita274098ef7ca61355b37a265e3bf525f
         'EDAC\\Issues_Query' => __DIR__ . '/../..' . '/includes/deprecated/class-issues-query.php',
         'EDAC\\Scans_Stats' => __DIR__ . '/../..' . '/includes/deprecated/class-scans-stats.php',
         'EDAC_Dom' => __DIR__ . '/../..' . '/includes/classes/class-edac-dom.php',
+        'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesPage' => __DIR__ . '/../..' . '/admin/AdminPage/FixesPage.php',
+        'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesSettingType\\Checkbox' => __DIR__ . '/../..' . '/admin/AdminPage/FixesSettingType/Checkbox.php',
+        'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesSettingType\\Text' => __DIR__ . '/../..' . '/admin/AdminPage/FixesSettingType/Text.php',
+        'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\PageInterface' => __DIR__ . '/../..' . '/admin/AdminPage/PageInterface.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\FixInterface' => __DIR__ . '/../..' . '/includes/classes/Fixes/FixInterface.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddFileSizeAndTypeToLinkedFilesFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/AddFileSizeAndTypeToLinkedFilesFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddLabelToUnlabelledFormFieldsFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/AddLabelToUnlabelledFormFieldsFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddMissingOrEmptyPageTitleFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/AddMissingOrEmptyPageTitleFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\BlockPDFUploadsFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/BlockPDFUploadsFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\CommentSearchLabelFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/CommentSearchLabelFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\FocusOutlineFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/FocusOutlineFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\HTMLLangAndDirFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/HTMLLangAndDirFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\LinkUnderline' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/LinkUnderline.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\MetaViewportScalableFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/MetaViewportScalableFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\PreventLinksOpeningNewWindowFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/PreventLinksOpeningNewWindowFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\ReadMoreAddTitleFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/ReadMoreAddTitleFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\RemoveTitleIfPrefferedAccessibleNameFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/RemoveTitleIfPrefferedAccessibleNameFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\SkipLinkFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/SkipLinkFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\TabindexFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/TabindexFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\FixesManager' => __DIR__ . '/../..' . '/includes/classes/Fixes/FixesManager.php',
         'EqualizeDigital\\AccessibilityChecker\\WPCLI\\BootstrapCLI' => __DIR__ . '/../..' . '/includes/classes/WPCLI/BootstrapCLI.php',
         'EqualizeDigital\\AccessibilityChecker\\WPCLI\\Command\\CLICommandInterface' => __DIR__ . '/../..' . '/includes/classes/WPCLI/Command/CLICommandInterface.php',
         'EqualizeDigital\\AccessibilityChecker\\WPCLI\\Command\\DeleteStats' => __DIR__ . '/../..' . '/includes/classes/WPCLI/Command/DeleteStats.php',
