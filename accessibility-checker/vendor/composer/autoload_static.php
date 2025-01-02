@@ -193,6 +193,7 @@ class ComposerStaticInita274098ef7ca61355b37a265e3bf525f
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddFileSizeAndTypeToLinkedFilesFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/AddFileSizeAndTypeToLinkedFilesFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddLabelToUnlabelledFormFieldsFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/AddLabelToUnlabelledFormFieldsFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddMissingOrEmptyPageTitleFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/AddMissingOrEmptyPageTitleFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddNewWindowWarningFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/AddNewWindowWarningFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\BlockPDFUploadsFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/BlockPDFUploadsFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\CommentSearchLabelFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/CommentSearchLabelFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\FocusOutlineFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/FocusOutlineFix.php',

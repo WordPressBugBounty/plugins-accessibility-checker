@@ -155,6 +155,7 @@ return array(
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddFileSizeAndTypeToLinkedFilesFix' => $baseDir . '/includes/classes/Fixes/Fix/AddFileSizeAndTypeToLinkedFilesFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddLabelToUnlabelledFormFieldsFix' => $baseDir . '/includes/classes/Fixes/Fix/AddLabelToUnlabelledFormFieldsFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddMissingOrEmptyPageTitleFix' => $baseDir . '/includes/classes/Fixes/Fix/AddMissingOrEmptyPageTitleFix.php',
+    'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddNewWindowWarningFix' => $baseDir . '/includes/classes/Fixes/Fix/AddNewWindowWarningFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\BlockPDFUploadsFix' => $baseDir . '/includes/classes/Fixes/Fix/BlockPDFUploadsFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\CommentSearchLabelFix' => $baseDir . '/includes/classes/Fixes/Fix/CommentSearchLabelFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\FocusOutlineFix' => $baseDir . '/includes/classes/Fixes/Fix/FocusOutlineFix.php',
