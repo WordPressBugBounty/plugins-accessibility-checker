@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit79608e1e52e49672dcf359daf4d74041
+class ComposerStaticInit61b1718f886504a4958c41f3d46bb148
 {
     public static $prefixLengthsPsr4 = array (
         'E' => 
@@ -210,6 +210,51 @@ class ComposerStaticInit79608e1e52e49672dcf359daf4d74041
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\SkipLinkFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/SkipLinkFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\TabindexFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/TabindexFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\FixesManager' => __DIR__ . '/../..' . '/includes/classes/Fixes/FixesManager.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\RuleInterface' => __DIR__ . '/../..' . '/includes/classes/Rules/RuleInterface.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\RuleRegistry' => __DIR__ . '/../..' . '/includes/classes/Rules/RuleRegistry.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\AriaHiddenRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/AriaHiddenRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\BrokenAriaReferenceRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/BrokenAriaReferenceRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\BrokenSkipAnchorLinkRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/BrokenSkipAnchorLinkRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ColorContrastFailureRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ColorContrastFailureRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\DuplicateFormLabelRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/DuplicateFormLabelRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\EmptyButtonRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/EmptyButtonRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\EmptyHeadingTagRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/EmptyHeadingTagRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\EmptyLinkRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/EmptyLinkRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\EmptyParagraphTagRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/EmptyParagraphTagRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\EmptyTableHeaderRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/EmptyTableHeaderRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\IframeMissingTitleRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/IframeMissingTitleRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ImageMapMissingAltTextRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ImageMapMissingAltTextRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ImgAltEmptyRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ImgAltEmptyRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ImgAltInvalidRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ImgAltInvalidRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ImgAltLongRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ImgAltLongRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ImgAltMissingRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ImgAltMissingRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ImgAltRedundantRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ImgAltRedundantRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ImgAnimatedGifRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ImgAnimatedGifRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ImgLinkedAltEmptyRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ImgLinkedAltEmptyRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\ImgLinkedAltMissingRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/ImgLinkedAltMissingRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\IncorrectHeadingOrderRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/IncorrectHeadingOrderRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkAmbiguousTextRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkAmbiguousTextRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkBlankRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkBlankRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkImproperRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkImproperRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkMsOfficeFileRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkMsOfficeFileRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkNonHtmlFileRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkNonHtmlFileRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkPdfRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkPdfRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LongDescriptionInvalidRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LongDescriptionInvalidRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MetaViewportRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/MetaViewportRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MissingFormLabelRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/MissingFormLabelRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MissingHeadingsRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/MissingHeadingsRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MissingLangAttrRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/MissingLangAttrRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MissingTableHeaderRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/MissingTableHeaderRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MissingTitleRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/MissingTitleRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MissingTranscriptRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/MissingTranscriptRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\PossibleHeadingRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/PossibleHeadingRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\SliderPresentRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/SliderPresentRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\TabOrderModifiedRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/TabOrderModifiedRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\TextBlinkingScrollingRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/TextBlinkingScrollingRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\TextJustifiedRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/TextJustifiedRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\TextSmallRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/TextSmallRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\UnderlinedTextRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/UnderlinedTextRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\VideoPresentRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/VideoPresentRule.php',
         'EqualizeDigital\\AccessibilityChecker\\WPCLI\\BootstrapCLI' => __DIR__ . '/../..' . '/includes/classes/WPCLI/BootstrapCLI.php',
         'EqualizeDigital\\AccessibilityChecker\\WPCLI\\Command\\CLICommandInterface' => __DIR__ . '/../..' . '/includes/classes/WPCLI/Command/CLICommandInterface.php',
         'EqualizeDigital\\AccessibilityChecker\\WPCLI\\Command\\DeleteStats' => __DIR__ . '/../..' . '/includes/classes/WPCLI/Command/DeleteStats.php',
@@ -220,10 +265,10 @@ class ComposerStaticInit79608e1e52e49672dcf359daf4d74041
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit79608e1e52e49672dcf359daf4d74041::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit79608e1e52e49672dcf359daf4d74041::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit79608e1e52e49672dcf359daf4d74041::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit79608e1e52e49672dcf359daf4d74041::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit61b1718f886504a4958c41f3d46bb148::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit61b1718f886504a4958c41f3d46bb148::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit61b1718f886504a4958c41f3d46bb148::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit61b1718f886504a4958c41f3d46bb148::$classMap;
 
         }, null, ClassLoader::class);
     }
