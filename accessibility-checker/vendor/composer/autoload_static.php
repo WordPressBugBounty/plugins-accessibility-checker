@@ -172,6 +172,7 @@ class ComposerStaticInit61b1718f886504a4958c41f3d46bb148
         'EDAC\\Admin\\Scans_Stats' => __DIR__ . '/../..' . '/admin/class-scans-stats.php',
         'EDAC\\Admin\\Settings' => __DIR__ . '/../..' . '/admin/class-settings.php',
         'EDAC\\Admin\\SiteHealth\\Audit_History' => __DIR__ . '/../..' . '/admin/site-health/class-audit-history.php',
+        'EDAC\\Admin\\SiteHealth\\Checks' => __DIR__ . '/../..' . '/admin/site-health/class-checks.php',
         'EDAC\\Admin\\SiteHealth\\Free' => __DIR__ . '/../..' . '/admin/site-health/class-free.php',
         'EDAC\\Admin\\SiteHealth\\Information' => __DIR__ . '/../..' . '/admin/site-health/class-information.php',
         'EDAC\\Admin\\SiteHealth\\Pro' => __DIR__ . '/../..' . '/admin/site-health/class-pro.php',

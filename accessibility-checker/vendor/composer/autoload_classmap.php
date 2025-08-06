@@ -134,6 +134,7 @@ return array(
     'EDAC\\Admin\\Scans_Stats' => $baseDir . '/admin/class-scans-stats.php',
     'EDAC\\Admin\\Settings' => $baseDir . '/admin/class-settings.php',
     'EDAC\\Admin\\SiteHealth\\Audit_History' => $baseDir . '/admin/site-health/class-audit-history.php',
+    'EDAC\\Admin\\SiteHealth\\Checks' => $baseDir . '/admin/site-health/class-checks.php',
     'EDAC\\Admin\\SiteHealth\\Free' => $baseDir . '/admin/site-health/class-free.php',
     'EDAC\\Admin\\SiteHealth\\Information' => $baseDir . '/admin/site-health/class-information.php',
     'EDAC\\Admin\\SiteHealth\\Pro' => $baseDir . '/admin/site-health/class-pro.php',
