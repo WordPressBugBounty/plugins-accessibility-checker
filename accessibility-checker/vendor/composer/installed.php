@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'equalizedigital/accessibility-checker',
-        'pretty_version' => 'v1.30.1',
-        'version' => '1.30.1.0',
-        'reference' => '6280db9152a343739086278ff1d42f710b4bc5ec',
+        'pretty_version' => 'v1.31.0',
+        'version' => '1.31.0.0',
+        'reference' => '0dd142ca86755065debf62e34751f4ca2979d543',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,9 +31,9 @@
             'dev_requirement' => false,
         ),
         'equalizedigital/accessibility-checker' => array(
-            'pretty_version' => 'v1.30.1',
-            'version' => '1.30.1.0',
-            'reference' => '6280db9152a343739086278ff1d42f710b4bc5ec',
+            'pretty_version' => 'v1.31.0',
+            'version' => '1.31.0.0',
+            'reference' => '0dd142ca86755065debf62e34751f4ca2979d543',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
