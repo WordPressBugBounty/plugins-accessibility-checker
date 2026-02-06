@@ -151,6 +151,7 @@ return array(
     'EDAC\\Inc\\Summary_Generator' => $baseDir . '/includes/classes/class-summary-generator.php',
     'EDAC\\Issues_Query' => $baseDir . '/includes/deprecated/class-issues-query.php',
     'EDAC\\Scans_Stats' => $baseDir . '/includes/deprecated/class-scans-stats.php',
+    'EqualizeDigital\\AccessibilityChecker\\Admin\\Activation_Redirect' => $baseDir . '/admin/class-activation-redirect.php',
     'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesPage' => $baseDir . '/admin/AdminPage/FixesPage.php',
     'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesSettingType\\Checkbox' => $baseDir . '/admin/AdminPage/FixesSettingType/Checkbox.php',
     'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesSettingType\\Text' => $baseDir . '/admin/AdminPage/FixesSettingType/Text.php',

@@ -184,9 +184,9 @@ class Scans_Stats {
 			$rule_query = new Issues_Query(
 				[
 					'rule_slugs' => [ $rule_slug ],
+					'post_types' => Settings::get_scannable_post_types(),
 				],
-				1,
-				Issues_Query::FLAG_INCLUDE_ALL_POST_TYPES
+				1
 			);
 
 			if ( $rule_query->count() ) {
@@ -195,8 +195,9 @@ class Scans_Stats {
 		}
 		$data['rules_passed'] = $this->rule_count - $data['rules_failed'];
 
-		$data['passed_percentage'] = 100;
-		if ( $data['posts_scanned'] > 0 && $tests_count > 0 ) {
+		$data['passed_percentage'] = 'N/A';
+		$scannable_post_types      = Settings::get_scannable_post_types();
+		if ( ! empty( $scannable_post_types ) && $data['posts_scanned'] > 0 && $tests_count > 0 ) {
 			$data['passed_percentage'] = round( ( $data['rules_passed'] / $this->rule_count ) * 100, 2 );
 		}
 
@@ -299,9 +300,10 @@ class Scans_Stats {
 					JOIN (
 						SELECT DISTINCT postid
 						FROM ' . $wpdb->prefix . 'accessibility_checker
+						WHERE ignre=%d AND ignre_global=%d
 					) AS distinct_posts ON ' . $wpdb->postmeta . '.post_id = distinct_posts.postid
 					WHERE meta_key = %s',
-					[ '_edac_issue_density' ]
+					[ 0, 0, '_edac_issue_density' ]
 				)
 			);
 

@@ -2,18 +2,19 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Accessibility Checker 1.31.0\n"
+"Project-Id-Version: Accessibility Checker 1.35.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accessibility-checker\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-09-04T18:22:49+00:00\n"
+"POT-Creation-Date: 2025-12-04T22:32:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: accessibility-checker\n"
 "Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Plugin Name of the plugin
 #: accessibility-checker.php
@@ -22,6 +23,7 @@ msgstr ""
 #: includes/classes/class-admin-toolbar.php:53
 #: includes/options-page.php:45
 #: partials/welcome-page.php:24
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Accessibility Checker"
 msgstr "Accessibility Checker"
 
@@ -171,27 +173,27 @@ msgid "🎉 Black Friday special! 🎉"
 msgstr "🎉 Black Friday -tarjous! 🎉"
 
 #: admin/class-admin-notices.php:130
-msgid "Upgrade to a paid version of Accessibility Checker from November 25th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
-msgstr "Päivitä maksulliseen Accessibility Checker -versioon 25.11.-3.12. Välisenä aikana ja saat 30 % alennuksen! Koko sivuston skannaus, sivustonlaajuinen avointen ongelmien raportti, ohitusloki ja paljon muuta."
+msgid "Upgrade to a paid version of Accessibility Checker from November 24th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
+msgstr "Päivitä Accessibility Checkerin maksulliseen versioon 24. marraskuuta – 3. joulukuuta välisenä aikana ja saat 30 % alennuksen! Koko sivuston skannaus, koko sivuston avoimien ongelmien raportti, lokien ohitus ja paljon muuta."
 
 #: admin/class-admin-notices.php:131
-#: admin/class-admin-notices.php:218
+#: admin/class-admin-notices.php:221
 msgid "Ask a Pre-Sale Question"
 msgstr "Kysy myyntiä edeltävä kysymys"
 
 #: admin/class-admin-notices.php:132
-#: admin/class-admin-notices.php:219
+#: admin/class-admin-notices.php:222
 msgid "Upgrade Now"
 msgstr "Päivitä nyt"
 
 #: admin/class-admin-notices.php:151
-#: admin/class-admin-notices.php:238
-#: admin/class-admin-notices.php:327
+#: admin/class-admin-notices.php:241
+#: admin/class-admin-notices.php:330
 #: admin/class-ajax.php:56
 #: admin/class-ajax.php:202
-#: admin/class-ajax.php:579
-#: admin/class-ajax.php:712
-#: admin/class-ajax.php:786
+#: admin/class-ajax.php:585
+#: admin/class-ajax.php:718
+#: admin/class-ajax.php:792
 #: admin/class-frontend-highlight.php:78
 #: admin/class-frontend-highlight.php:96
 #: admin/class-frontend-highlight.php:101
@@ -199,50 +201,50 @@ msgstr "Päivitä nyt"
 msgid "Permission Denied"
 msgstr "Käyttöoikeus evätty"
 
-#: admin/class-admin-notices.php:160
-#: admin/class-admin-notices.php:250
-#: admin/class-admin-notices.php:347
+#: admin/class-admin-notices.php:163
+#: admin/class-admin-notices.php:253
+#: admin/class-admin-notices.php:354
 msgid "Update option wasn't successful"
 msgstr "Vaihtoehdon päivitys ei onnistunut"
 
-#: admin/class-admin-notices.php:216
+#: admin/class-admin-notices.php:219
 msgid "🎉 Get 25% off Accessibility Checker Pro in honor of Global Accessibility Awareness Day! 🎉"
 msgstr "🎉 Saat 25 % alennuksen Accessibility Checker Pro:sta kansainvälisen saavutettavuustietoisuuden päivän kunniaksi! 🎉"
 
-#: admin/class-admin-notices.php:217
+#: admin/class-admin-notices.php:220
 msgid "Use coupon code GAAD25 from May 13th-May 21st to get access to full-site scanning and other pro features at a special discount. Not sure if upgrading is right for you?"
 msgstr "Käytä kuponkikoodia GAAD25 13.5.-21.5. Välisenä aikana saadaksesi pääsyn koko sivuston skannaukseen ja muihin pro-ominaisuuksiin erikoishintaan. Etkö ole varma, onko päivittäminen sinulle sopiva vaihtoehto?"
 
-#: admin/class-admin-notices.php:302
+#: admin/class-admin-notices.php:305
 msgid "Hello! Thank you for using Accessibility Checker as part of your accessibility toolkit. Since you've been using it for a while, would you please write a 5-star review of Accessibility Checker in the WordPress plugin directory? This will help increase our visibility so more people can learn about the importance of web accessibility. Thanks so much!"
 msgstr "Hei! Kiitos, että käytät Accessibility Checkeriä osana saavutettavuustyökaluvalikoimaasi. Koska olet käyttänyt sitä jo jonkin aikaa, voisitko ystävällisesti kirjoittaa 5 tähden arvostelun Accessibility Checkeristä WordPress-lisäosahakemistoon? Tämä auttaa lisäämään näkyvyyttämme, jotta useammat ihmiset voivat oppia verkkosivujen saavutettavuuden tärkeydestä. Kiitos paljon!"
 
-#: admin/class-admin-notices.php:305
+#: admin/class-admin-notices.php:308
 msgid "Write A Review"
 msgstr "Kirjoita arvostelu"
 
-#: admin/class-admin-notices.php:306
+#: admin/class-admin-notices.php:309
 msgid "Remind Me In Two Weeks"
 msgstr "Muistuta kahden viikon kuluttua"
 
-#: admin/class-admin-notices.php:307
+#: admin/class-admin-notices.php:310
 msgid "Never Ask Again"
 msgstr "Älä kysy enää koskaan"
 
-#: admin/class-admin-notices.php:334
+#: admin/class-admin-notices.php:337
 msgid "The review action value was not set"
 msgstr "Arvostelutoiminnon arvoa ei asetettu"
 
 #: admin/class-ajax.php:60
 #: admin/class-ajax.php:206
-#: admin/class-ajax.php:583
-#: admin/class-ajax.php:790
+#: admin/class-ajax.php:589
+#: admin/class-ajax.php:796
 msgid "The post ID was not set"
 msgstr "Artikkelin tunnistetta ei ole asetettu"
 
 #: admin/class-ajax.php:64
 #: admin/class-ajax.php:210
-#: admin/class-ajax.php:587
+#: admin/class-ajax.php:593
 msgid "You do not have permission to view this information for this post."
 msgstr "Sinulla ei ole lupaa tarkastella tämän julkaisun tietoja."
 
@@ -267,32 +269,32 @@ msgstr "Tähän sisältöön on liitetty yksinkertaistettu yhteenveto."
 #, php-format
 msgid "%s Error"
 msgid_plural "%s Errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s Virhe"
+msgstr[1] "%s Virhettä"
 
 #. translators: %s: Number of contrast errors
 #: admin/class-ajax.php:133
 #, php-format
 msgid "%s Contrast Error"
 msgid_plural "%s Contrast Errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s Kontrastitoistovirhe"
+msgstr[1] "%s Kontrastitoistuvirhettä"
 
 #. translators: %s: Number of warnings
 #: admin/class-ajax.php:139
 #, php-format
 msgid "%s Warning"
 msgid_plural "%s Warnings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s Varoitus"
+msgstr[1] "%s Varoitusta"
 
 #. translators: %s: Number of ignored items
 #: admin/class-ajax.php:145
 #, php-format
 msgid "%s Ignored Item"
 msgid_plural "%s Ignored Items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s Ohitettu kohde"
+msgstr[1] "%s Ohitettua kohdetta"
 
 #: admin/class-ajax.php:182
 msgid "No summary to return"
@@ -319,46 +321,54 @@ msgstr "Tallenna"
 msgid "Affected Code"
 msgstr "Vaikutuksen alainen koodi"
 
+#: admin/class-ajax.php:438
+msgid "Username:"
+msgstr "Käyttäjätunnus:"
+
+#: admin/class-ajax.php:443
+msgid "Date:"
+msgstr "Päivämäärä:"
+
 #. Translators: %d is the issue ID.
-#: admin/class-ajax.php:499
+#: admin/class-ajax.php:505
 #, php-format
 msgid "View Issue ID %d on website, opens a new window"
 msgstr "Näytä ongelma ID %d verkkosivustolla, avautuu uuteen ikkunaan"
 
-#: admin/class-ajax.php:500
+#: admin/class-ajax.php:506
 msgid "View on page"
 msgstr "Näytä sivulla"
 
-#: admin/class-ajax.php:519
+#: admin/class-ajax.php:525
 msgid "Fix: "
 msgstr "Korjaus: "
 
-#: admin/class-ajax.php:520
+#: admin/class-ajax.php:526
 msgid "Fix"
 msgstr "Korjaa"
 
-#: admin/class-ajax.php:543
+#: admin/class-ajax.php:549
 msgid "Your user account doesn't have permission to ignore this issue."
 msgstr "Käyttäjätililläsi ei ole oikeuksia ohittaa tätä ongelmaa."
 
-#: admin/class-ajax.php:560
+#: admin/class-ajax.php:566
 msgid "No details to return"
 msgstr "Ei yksityiskohtia palautettavaksi"
 
-#: admin/class-ajax.php:694
+#: admin/class-ajax.php:700
 msgid "No readability data to return"
 msgstr "Ei luettavuustietoja palautettavaksi"
 
-#: admin/class-ajax.php:746
-#: admin/class-ajax.php:767
+#: admin/class-ajax.php:752
+#: admin/class-ajax.php:773
 msgid "No ignore data to return"
 msgstr "Ei ohitustietoja palautettavaksi"
 
-#: admin/class-ajax.php:794
+#: admin/class-ajax.php:800
 msgid "The summary was not set"
 msgstr "Yhteenvetoa ei ole asetettu"
 
-#: admin/class-ajax.php:798
+#: admin/class-ajax.php:804
 msgid "You do not have permission to edit this post."
 msgstr "Sinulla ei ole lupaa muokata tätä julkaisua."
 
@@ -393,7 +403,7 @@ msgid "View Accessibility Checker Documentation (opens in new window)"
 msgstr "Katso Accessibility Checkerin dokumentaatio (avautuu uudessa ikkunassa)"
 
 #: admin/class-plugin-row-meta.php:54
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation"
 msgstr "Dokumentaatio"
 
@@ -453,26 +463,26 @@ msgstr "Läpäistyt testit"
 #: admin/class-welcome-page.php:88
 msgid "Unique Error"
 msgid_plural "Unique Errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Yksilöllinen virhe"
+msgstr[1] "Yksilölliset virheet"
 
 #: admin/class-welcome-page.php:113
 msgid "Unique Color Contrast Error"
 msgid_plural "Unique Color Contrast Errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Yksilöllinen värikontrastivirhe"
+msgstr[1] "Yksilölliset värikontrastivirheet"
 
 #: admin/class-welcome-page.php:138
 msgid "Unique Warning"
 msgid_plural "Unique Warnings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Yksilöllinen varoitus"
+msgstr[1] "Yksilölliset varoitukset"
 
 #: admin/class-welcome-page.php:163
 msgid "Ignored Item"
 msgid_plural "Ignored Items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ohitettu kohde"
+msgstr[1] "Ohitetut kohteet"
 
 #: admin/class-welcome-page.php:180
 msgid "Average Issues Per Page"
@@ -600,32 +610,32 @@ msgstr "Kontrasti"
 msgid "Warnings"
 msgstr "Varoitukset"
 
-#: admin/class-widgets.php:247
+#: admin/class-widgets.php:248
 msgid "Upgrade to Scan"
 msgstr "Päivitä skannataksesi"
 
-#: admin/class-widgets.php:276
+#: admin/class-widgets.php:277
 msgid "See More Reports"
 msgstr "Katso lisää raportteja"
 
-#: admin/class-widgets.php:286
-#: partials/welcome-page.php:235
+#: admin/class-widgets.php:289
+#: partials/welcome-page.php:239
 msgid "Learn Accessibility"
 msgstr "Opi esteettömyydestä"
 
-#: admin/class-widgets.php:307
+#: admin/class-widgets.php:311
 msgid "Additional Resources"
 msgstr "Lisäresurssit"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog (opens in a new window)"
 msgstr "Blogi (avautuu uuteen ikkunaan)"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog"
 msgstr "Blogi"
 
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation (opens in a new window)"
 msgstr "Dokumentaatio (avautuu uuteen ikkunaan)"
 
@@ -725,9 +735,9 @@ msgstr "Sisältöä tarkistetaan saavutettavuuden osalta"
 #: admin/site-health/class-checks.php:177
 #, php-format
 msgid "Accessibility Checker has scanned %s post for accessibility issues."
-msgid_plural "Accessibility Checker has scanned %s post for accessibility issues."
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "Accessibility Checker has scanned %s posts for accessibility issues."
+msgstr[0] "Accessibility Checker on skannannut %s artikkelin saavutettavuusongelmien varalta."
+msgstr[1] "Accessibility Checker on skannannut %s artikkelia saavutettavuusongelmien varalta."
 
 #: admin/site-health/class-checks.php:196
 msgid "No post types selected for accessibility checking"
@@ -749,9 +759,9 @@ msgstr "Sisältötyypit on määritetty saavutettavuustarkistuksia varten"
 #: admin/site-health/class-checks.php:216
 #, php-format
 msgid "Accessibility Checker is configured to scan %1$s post type: %2$s."
-msgid_plural "Accessibility Checker is configured to scan %1$s post type: %2$s."
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "Accessibility Checker is configured to scan %1$s post types: %2$s."
+msgstr[0] "Accessibility Checker on määritetty skannaamaan %1$s sisältötyyppi: %2$s."
+msgstr[1] "Accessibility Checker on määritetty skannaamaan %1$s sisältötyyppiä: %2$s."
 
 #: admin/site-health/class-free.php:46
 msgid "Accessibility Checker &mdash; Free"
@@ -899,8 +909,8 @@ msgid "Get Accessibility Checker Pro (opens in new window)"
 msgstr "Hanki Accessibility Checker Pro (avautuu uudessa ikkunassa)"
 
 #: includes/classes/class-simplified-summary.php:73
-#: includes/options-page.php:897
-#: includes/options-page.php:921
+#: includes/options-page.php:898
+#: includes/options-page.php:922
 msgid "Simplified Summary"
 msgstr "Yksinkertaistettu yhteenveto"
 
@@ -2653,57 +2663,65 @@ msgid "W3C: Understanding Guideline 1.2"
 msgstr "W3C: Ohjeen 1.2 ymmärtäminen."
 
 #. translators: 1: a php classname, 2: an error message that was thrown about why this failed to register.
-#: includes/classes/WPCLI/BootstrapCLI.php:101
+#: includes/classes/WPCLI/BootstrapCLI.php:109
 #, php-format
 msgid "Failed to register command %1$s because %2$s"
 msgstr "Komennon %1$s rekisteröinti epäonnistui, koska %2$s"
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:61
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:73
+msgid "Number of orphaned posts to process in one batch."
+msgstr "Käsiteltävien orpojen julkaisujen määrä yhdessä erässä."
+
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:80
+msgid "Seconds to sleep between deletions (default: 0)."
+msgstr "Sekuntia odotusaikaa poistojen välillä (oletus: 0)."
+
+#: includes/classes/WPCLI/Command/DeleteStats.php:72
 msgid "The ID of the post to delete stats for."
 msgstr "Artikkelin ID, jonka tilastot poistetaan."
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:83
+#: includes/classes/WPCLI/Command/DeleteStats.php:94
 msgid "No Post ID provided."
 msgstr "Artikkelin ID:tä ei annettu."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:92
+#: includes/classes/WPCLI/Command/DeleteStats.php:103
 #, php-format
 msgid "Post ID %1$s does not exist."
 msgstr "Artikkelin ID %1$s ei ole olemassa."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:103
+#: includes/classes/WPCLI/Command/DeleteStats.php:114
 #, php-format
 msgid "Stats of %1$s deleted."
 msgstr "Artikkelin %1$s tilastot poistettu."
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:67
+#: includes/classes/WPCLI/Command/GetSiteStats.php:78
 msgid "Keys to show in the results. Defaults to all keys."
 msgstr "Tuloksissa näytettävät avaimet. Oletuksena kaikki avaimet."
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:75
+#: includes/classes/WPCLI/Command/GetSiteStats.php:86
 msgid "Clear the cache before retrieving the stats (can be intensive)."
 msgstr "Tyhjennä välimuisti ennen tilastojen hakemista (voi olla raskas toimenpide)."
 
 #. translators: 1: a stat key that was requested but not found.
-#: includes/classes/WPCLI/Command/GetSiteStats.php:111
+#: includes/classes/WPCLI/Command/GetSiteStats.php:122
 #, php-format
 msgid "Stat key: %1$s not found in stats."
 msgstr "Tilastoavainta %1$s ei löytynyt tilastoista."
 
-#: includes/classes/WPCLI/Command/GetStats.php:85
+#: includes/classes/WPCLI/Command/GetStats.php:96
 msgid "The ID of the post to get stats for."
 msgstr "Artikkelin ID, jonka tilastot haetaan."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:126
+#: includes/classes/WPCLI/Command/GetStats.php:137
 #, php-format
 msgid "Post ID %1$d does not exist."
 msgstr "Artikkelin ID %1$d ei ole olemassa."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:142
+#: includes/classes/WPCLI/Command/GetStats.php:153
 #, php-format
 msgid "Either the post is not yet scanned or all tests passed for post ID %1$d."
 msgstr "Joko artikkelia ei ole vielä skannattu tai kaikki testit läpäistiin artikkelin ID:lle %1$d."
@@ -2720,12 +2738,12 @@ msgstr "pysyvä linkki kohteeseen "
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
-#: includes/helper-functions.php:341
+#: includes/helper-functions.php:392
 msgid "Attend Free"
 msgstr "Osallistu ilmaiseksi"
 
 #. translators: %s is the landmark type (e.g., "Header", "Navigation", "Main").
-#: includes/helper-functions.php:790
+#: includes/helper-functions.php:841
 #, php-format
 msgid "View %s landmark on website, opens a new window"
 msgstr "Näytä %s maamerkki verkkosivustolla, avaa uuden ikkunan"
@@ -2791,12 +2809,12 @@ msgid "Simplified Summary Heading"
 msgstr "Yksinkertaistettu yhteenvedon otsikko"
 
 #: includes/options-page.php:235
-#: includes/options-page.php:735
+#: includes/options-page.php:736
 msgid "Add Footer Accessibility Statement"
 msgstr "Lisää alatunnisteen saavutettavuuslausunto"
 
 #: includes/options-page.php:244
-#: includes/options-page.php:758
+#: includes/options-page.php:759
 msgid "Include Link to Accessibility Policy"
 msgstr "Sisällytä linkki saavutettavuuskäytäntöön"
 
@@ -2939,31 +2957,31 @@ msgstr "Aina"
 msgid "Should Accessibility Checker only ask for a simplified summary when the reading level of your post or page is above 9th grade, always ask for it regardless of reading level, or never ask for it regardless of reading level?"
 msgstr "Pitäisikö Accessibility Checkerin pyytää yksinkertaistettua yhteenvetoa vain silloin, kun artikkelin tai sivun luettavuustaso on yli 9. luokan tasoa, pyytää sitä aina luettavuustasosta riippumatta vai ei koskaan pyytää sitä luettavuustasosta riippumatta?"
 
-#: includes/options-page.php:660
+#: includes/options-page.php:661
 msgid "To check content other than posts and pages, please "
 msgstr "Tarkistaaksesi muun sisällön kuin artikkelit ja sivut, ole hyvä ja "
 
-#: includes/options-page.php:662
+#: includes/options-page.php:663
 msgid "upgrade to pro"
 msgstr "päivitä pro-versioon"
 
-#: includes/options-page.php:663
+#: includes/options-page.php:664
 msgid " (opens in a new window)"
 msgstr " (avautuu uudessa ikkunassa)"
 
-#: includes/options-page.php:668
+#: includes/options-page.php:669
 msgid "Choose which post types should be checked during a scan. Please note, removing a previously selected post type will remove its scanned information and any custom ignored warnings that have been setup."
 msgstr "Valitse, mitkä sisältötyypit tulisi tarkistaa skannauksen aikana. Huomaa, että aiemmin valitun sisältötyypin poistaminen poistaa sen skannatut tiedot ja kaikki mukautetut ohitetut varoitukset, jotka on asetettu."
 
-#: includes/options-page.php:810
+#: includes/options-page.php:811
 msgid "Delete all Accessibility Checker data when the plugin is uninstalled."
-msgstr "Poista kaikki Accessibility Checkerin tiedot, kun lisäosa poistetaan."
+msgstr "Poista kaikki Accessibility Checker -tiedot, kun lisäosa poistetaan."
 
-#: includes/options-page.php:965
+#: includes/options-page.php:966
 msgid "Choose which user roles have permission to ignore issues."
 msgstr "Valitse, millä käyttäjärooleilla on oikeus ohittaa ongelmia."
 
-#: includes/options-page.php:998
+#: includes/options-page.php:999
 msgid "Configure which user roles have access to specific Accessibility Checker features."
 msgstr "Määritä, millä käyttäjärooleilla on pääsy tiettyihin Accessibility Checker -ominaisuuksiin."
 
@@ -4499,8 +4517,33 @@ msgid "Close fixes modal"
 msgstr "Sulje korjausikkuna"
 
 #: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Open details for %1$s, %2$s of %3$s"
+msgstr "Avaa tiedot kohteille %1$s, %2$s/%3$s"
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Rescan This Page"
 msgstr "Skannaa tämä sivu uudelleen"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Accessibility Checker Tools"
+msgstr "Accessibility Checker -työkalut"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Close"
+msgstr "Sulje"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Previous"
+msgstr "Edellinen"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Next"
+msgstr "Seuraava"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Disable Page Styles"
@@ -4511,8 +4554,33 @@ msgid "Disable Styles"
 msgstr "Poista tyylit käytöstä"
 
 #: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not visible. Try disabling styles."
+msgstr "Elementti ei ole näkyvissä. Kokeile poistaa tyylit käytöstä."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not focusable. Try disabling styles."
+msgstr "Elementti ei ole fokusoitavissa. Kokeile poistaa tyylit käytöstä."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element was not found on the page."
+msgstr "Elementtiä ei löytynyt sivulta."
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "An error occurred when loading the issues."
 msgstr "Virhe ongelmien lataamisessa."
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Fix issue: %s"
+msgstr "Korjaa ongelma: %s"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Fix Issue"
+msgstr "Korjaa ongelma"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Full Documentation"
+msgstr "Täydellinen dokumentaatio"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Show Code"
@@ -4541,14 +4609,14 @@ msgstr "Ongelmia ei havaittu."
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "error"
 msgid_plural "errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "virhe"
+msgstr[1] "virhettä"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "warning"
 msgid_plural "warnings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "varoitus"
+msgstr[1] "varoitusta"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "and"
@@ -4557,12 +4625,17 @@ msgstr "ja"
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "ignored issue"
 msgid_plural "ignored issues"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ohitettu ongelma"
+msgstr[1] "ohitettua ongelmaa"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "detected."
 msgstr "havaittu."
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Landmark: %s"
+msgstr "Maamerkki: %s"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Scanner function not found."

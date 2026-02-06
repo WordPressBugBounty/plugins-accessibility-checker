@@ -194,6 +194,7 @@ class Widgets {
 		foreach ( $post_types as $post_type ) {
 
 			$post_types_to_check = array_merge( [ 'post', 'page' ], $scannable_post_types );
+			$post_type_label     = edac_get_post_type_label( $post_type );
 
 			if ( in_array( $post_type, $post_types_to_check, true ) ) {
 
@@ -201,7 +202,7 @@ class Widgets {
 
 					$html .= '
 							<tr>
-								<th scope="col">' . esc_html( ucwords( $post_type ) ) . '</th>
+								<th scope="col">' . esc_html( $post_type_label ) . '</th>
 								<td id="' . esc_attr( $post_type ) . '-errors">-</td>
 								<td id="' . esc_attr( $post_type ) . '-contrast-errors">-</td>
 								<td id="' . esc_attr( $post_type ) . '-warnings">-</td>
@@ -209,7 +210,7 @@ class Widgets {
 				} else {
 					$html .= '
 							<tr>
-								<th scope="col">' . esc_html( ucwords( $post_type ) ) . '</th>
+								<th scope="col">' . esc_html( $post_type_label ) . '</th>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
@@ -220,7 +221,7 @@ class Widgets {
 
 				$html .= '
 						<tr >
-							<th scope="col">' . esc_html( ucwords( $post_type ) ) . '</th>
+							<th scope="col">' . esc_html( $post_type_label ) . '</th>
 							<td>-</td>
 							<td>-</td>
 							<td>-</td>
@@ -240,7 +241,7 @@ class Widgets {
 				);
 				$html                            .= '
 						<tr >
-							<th scope="col">' . esc_html( ucwords( $post_type ) ) . '</th>
+							<th scope="col">' . esc_html( $post_type_label ) . '</th>
 							<td colspan="3">
 								<div class="edac-issues-summary-notice-upgrade-to-edacp">
 									<a href="' . esc_url( $non_scannable_post_type_pro_link ) . '">
@@ -280,13 +281,16 @@ class Widgets {
 		<a href="/wp-admin/admin.php?page=accessibility_checker_settings">Edit Accessibility Checker Settings</a>
 		</div>';
 
-		$html .= '
+		$meetup_html = edac_get_upcoming_meetups_html( 'wordpress-accessibility-meetup-group', 2, 4 );
+		if ( ! empty( $meetup_html ) ) {
+			$html .= '
 		<hr class="edac-hr" />
 		<h3 class="edac-summary-header">
 			' . __( 'Learn Accessibility', 'accessibility-checker' ) . '
 		</h3>';
 
-		$html .= edac_get_upcoming_meetups_html( 'wordpress-accessibility-meetup-group', 2, 4 );
+			$html .= $meetup_html;
+		}
 
 		$html .= '
 		<hr class="edac-hr" />
@@ -308,7 +312,7 @@ class Widgets {
 		$html     .= '<a target="_blank" aria-label="' . __( 'Blog (opens in a new window)', 'accessibility-checker' ) . '" class="edac-widget-footer-link-list-item edac-mr-1" href="' . esc_url( $blog_link ) . '">' . __( 'Blog', 'accessibility-checker' ) . '</a>';
 		$html     .= '<span class="edac-widget-footer-link-list-spacer"></span><a target="_blank" aria-label="' . __( 'Documentation (opens in a new window)', 'accessibility-checker' ) . '" class="edac-widget-footer-link-list-item edac-ml-1" href="' . esc_url( $docs_link ) . '">' . __( 'Documentation', 'accessibility-checker' ) . '</a></div></div>';
 
-		//phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		//phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- content is being escaped as it is being produced, late escaping would be more complicated and unreadable
 		echo $html;
 	}
 }

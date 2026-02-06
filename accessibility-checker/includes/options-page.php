@@ -413,7 +413,7 @@ function edac_full_site_scan_speed_cb() {
 			<?php foreach ( $speed_values as $value => $label ) : ?>
 				<option
 					value="<?php echo esc_attr( $value ); ?>"
-					<?php selected( $full_site_scan_speed, (int) $value, false ); ?>
+					<?php selected( $full_site_scan_speed, (int) $value ); ?>
 				>
 					<?php echo esc_html( $label ); ?>
 				</option>
@@ -637,7 +637,8 @@ function edac_post_types_cb() {
 			<?php
 			if ( $all_post_types ) {
 				foreach ( $all_post_types as $post_type ) {
-					$disabled = in_array( $post_type, $post_types, true ) ? '' : 'disabled';
+					$disabled        = in_array( $post_type, $post_types, true ) ? '' : 'disabled';
+					$post_type_label = edac_get_post_type_label( $post_type );
 					?>
 					<label>
 						<input type="checkbox" name="<?php echo 'edac_post_types[]'; ?>" value="<?php echo esc_attr( $post_type ); ?>"
@@ -646,7 +647,7 @@ function edac_post_types_cb() {
 																echo esc_attr( $disabled );
 																?>
 						>
-						<?php echo esc_html( $post_type ); ?>
+						<?php echo esc_html( $post_type_label ); ?>
 					</label>
 					<br>
 					<?php
@@ -904,11 +905,11 @@ function edac_sanitize_pro_summary_heading( $input ) {
  *
  * @since 1.11.0
  *
- * @param string $input Input to sanitize.
+ * @param string|int $input Input to sanitize.
  * @return int either 1 for checked or 0 for unchecked
  */
 function edac_sanitize_checkbox( $input ) {
-	return ( isset( $input ) && '1' === $input ) ? 1 : 0;
+	return ( isset( $input ) && ( '1' === $input || 1 === $input ) ) ? 1 : 0;
 }
 
 /**

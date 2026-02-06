@@ -2,8 +2,8 @@
 Contributors: equalizedigital, alh0319, stevejonesdev
 Tags: accessibility, accessible, wcag, ada, WP accessibility
 Requires at least: 6.6
-Tested up to: 6.8
-Stable tag: 1.33.0
+Tested up to: 6.9
+Stable tag: 1.37.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -210,43 +210,31 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 10. Accessibility Checker automated fix settings.
 
 == Changelog ==
-= 1.33.0 =
-* Added: WP-CLI commands can now be run with short names: `wp edac <command>` or using long name `wp accessibility-checker <command>`.
-* Improved: Made it easier to register custom commands through filter.
 
-= 1.32.0 =
-* Fixed: Improved highlighter behavior to maintain original size and position of scanned elements.
-* Fixed: Identify out-of-sequence headings.
-* Fixed: Identify missing title attributes.
-* Fixed: Correctly assess alternative text requirements for image map areas.
-* Improved: Implemented additional security measures for input validation and data sanitization.
+2026-01-23 - version 1.37.0
+* Fix - Duplicate markup on the page can now be properly identified as an issue.
+* Fix - Restrict global ignore management link and fix button label span closure.
+* Fix - Update database schema to use selector as unique identifier for issues.
+* Enhanced - Frontend issue matching with stable selectors and DOM ordering.
+* Enhanced - Better handling of frontend highlighter positioning.
+* Improved - More accurate restoration of styles after deactivating them in frontend highlighter.
+* Improved - When closing frontend highlighter it won't re-render unless needed.
 
-= 1.31.1 =
-* Added: Privacy policy link added at newsletter signup.
-* Improved: Error messages returned from some ajax actions are more descriptive.
+2025-12-15 - version 1.36.0
+* Fix - passed tests percentage logic now accounts times no posts are scanned
+* Fix - don't prevent scan speed saving when pro plugin is enabled.
+* Add - new trigger for invalid alt text - "an image".
+* Add - allow role="menuitem" with aria-expanded in link validation checks
+* New - visit welcome screen on plugin activation.
 
-= 1.31.0 =
-* Improved: Don't flag YouTube scripts as video present mistakenly.
-* Improved: Underlined text rule now will find more instances of underlined text.
-* Improved: Added additional string label check for links that open new windows/tabs.
-* Updated: Reordered some settings for better grouping.
-
-= 1.30.1 =
-* Improved: The rescan and clear buttons in the frontend highlighter are now only shown when they can be used.
-* Improved: Issue saving and clearing now has more robust capability checking.
-
-= 1.30.0 =
-* Added: Ability to clear issues on a post or page from the frontend highlighter.
-* Added: More accessibility checker details in the site health check.
-* Fixed: Icons stack in frontend highlighter when there multiple issues on the same element.
-* Improved: Missing Transcript can better detect transcripts for videos in the content.
-
-= 1.29.0 =
-* Added: Rescan button in the frontend highlighter to rescan the current page.
-* Added: Cleanup routine to clear out orphaned issues from the database.
-* Added: Filter to allow tweaking the post statuses which get scanned.
-* Enhanced: Updated the aria-hidden check to understand more sibling relationships.
-* Enhanced: Updated the redundant alt check to understand that repeated images with same source and alt is not redundant.
-* Fixed: Remove the password protected notice, and it's related features - scans can throw this error now.
+2025-12-05 - version 1.35.0
+* Fix - Ignored issues no longer count in density scores.
+* Fix - Ignored issues count comparison and message logic in frontend highlighter.
+* Fix - Allow long translations to wrap in new window warning tooltip.
+* Fix - Improve sanitization that would prevent checkboxes saving on first attempt in some cases.
+* Fix - Dashboard widget to conditionally display upcoming meetups and improve meetup data handling.
+* Fix - Make highlighter controls translatable.
+* Tweak - Add better help article link for new window warning fix.
+* Tweak - Use WordPress data functions instead of server time for ignore date formatting.
 
 Older versions can be found in the plugins `changelog.txt`.

@@ -2,18 +2,19 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Accessibility Checker 1.31.0\n"
+"Project-Id-Version: Accessibility Checker 1.35.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accessibility-checker\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-09-04T18:22:49+00:00\n"
+"POT-Creation-Date: 2025-12-04T22:32:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: accessibility-checker\n"
 "Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 #. Plugin Name of the plugin
 #: accessibility-checker.php
@@ -22,6 +23,7 @@ msgstr ""
 #: includes/classes/class-admin-toolbar.php:53
 #: includes/options-page.php:45
 #: partials/welcome-page.php:24
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Accessibility Checker"
 msgstr "Accessibility Checker"
 
@@ -171,27 +173,27 @@ msgid "🎉 Black Friday special! 🎉"
 msgstr "🎉 Melnās piektdienas īpašais piedāvājums! 🎉"
 
 #: admin/class-admin-notices.php:130
-msgid "Upgrade to a paid version of Accessibility Checker from November 25th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
-msgstr "Jauniniet uz maksas Accessibility Checker versiju no 25. Novembra līdz 3. decembrim un saņemiet 30% atlaidi! Pilnas vietnes skenēšana, vietnes mēroga atvērto problēmu ziņojums, ignorēšanas žurnāli un daudz kas cits."
+msgid "Upgrade to a paid version of Accessibility Checker from November 24th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
+msgstr "Jauniniet uz maksas Accessibility Checker versiju no 24. novembra līdz 3. decembrim un saņemiet 30 % atlaidi! Pilna vietnes skenēšana, vietnes atvērto problēmu ziņojums, ignorēšanas žurnāli un daudz kas cits."
 
 #: admin/class-admin-notices.php:131
-#: admin/class-admin-notices.php:218
+#: admin/class-admin-notices.php:221
 msgid "Ask a Pre-Sale Question"
 msgstr "Uzdot pārdošanas jautājumu"
 
 #: admin/class-admin-notices.php:132
-#: admin/class-admin-notices.php:219
+#: admin/class-admin-notices.php:222
 msgid "Upgrade Now"
 msgstr "Jaunināt tagad"
 
 #: admin/class-admin-notices.php:151
-#: admin/class-admin-notices.php:238
-#: admin/class-admin-notices.php:327
+#: admin/class-admin-notices.php:241
+#: admin/class-admin-notices.php:330
 #: admin/class-ajax.php:56
 #: admin/class-ajax.php:202
-#: admin/class-ajax.php:579
-#: admin/class-ajax.php:712
-#: admin/class-ajax.php:786
+#: admin/class-ajax.php:585
+#: admin/class-ajax.php:718
+#: admin/class-ajax.php:792
 #: admin/class-frontend-highlight.php:78
 #: admin/class-frontend-highlight.php:96
 #: admin/class-frontend-highlight.php:101
@@ -199,50 +201,50 @@ msgstr "Jaunināt tagad"
 msgid "Permission Denied"
 msgstr "Atļauja liegta"
 
-#: admin/class-admin-notices.php:160
-#: admin/class-admin-notices.php:250
-#: admin/class-admin-notices.php:347
+#: admin/class-admin-notices.php:163
+#: admin/class-admin-notices.php:253
+#: admin/class-admin-notices.php:354
 msgid "Update option wasn't successful"
 msgstr "Atjaunināšanas opcija nebija veiksmīga"
 
-#: admin/class-admin-notices.php:216
+#: admin/class-admin-notices.php:219
 msgid "🎉 Get 25% off Accessibility Checker Pro in honor of Global Accessibility Awareness Day! 🎉"
 msgstr "🎉 Iegūstiet 25% atlaidi Accessibility Checker Pro par godu Globālajai pieejamības izpratnes dienai! 🎉"
 
-#: admin/class-admin-notices.php:217
+#: admin/class-admin-notices.php:220
 msgid "Use coupon code GAAD25 from May 13th-May 21st to get access to full-site scanning and other pro features at a special discount. Not sure if upgrading is right for you?"
 msgstr "Izmantojiet kupona kodu GAAD25 no 13. Maija līdz 21. maijam, lai piekļūtu pilnas vietnes skenēšanai un citām pro funkcijām ar īpašu atlaidi. Neesat pārliecināts, vai jaunināšana ir jums piemērota?"
 
-#: admin/class-admin-notices.php:302
+#: admin/class-admin-notices.php:305
 msgid "Hello! Thank you for using Accessibility Checker as part of your accessibility toolkit. Since you've been using it for a while, would you please write a 5-star review of Accessibility Checker in the WordPress plugin directory? This will help increase our visibility so more people can learn about the importance of web accessibility. Thanks so much!"
 msgstr "Sveiki! Paldies, ka izmantojat Accessibility Checker kā daļu no jūsu pieejamības rīku komplekta. Tā kā jūs to jau kādu laiku izmantojat, vai jūs, lūdzu, varētu uzrakstīt 5 zvaigžņu atsauksmi par Accessibility Checker WordPress spraudņu direktorijā? Tas palīdzēs palielināt mūsu redzamību, lai vairāk cilvēku varētu uzzināt par tīmekļa pieejamības nozīmi. Liels paldies!"
 
-#: admin/class-admin-notices.php:305
+#: admin/class-admin-notices.php:308
 msgid "Write A Review"
 msgstr "Uzrakstīt atsauksmi"
 
-#: admin/class-admin-notices.php:306
+#: admin/class-admin-notices.php:309
 msgid "Remind Me In Two Weeks"
 msgstr "Atgādināt pēc divām nedēļām"
 
-#: admin/class-admin-notices.php:307
+#: admin/class-admin-notices.php:310
 msgid "Never Ask Again"
 msgstr "Vairs nejautāt"
 
-#: admin/class-admin-notices.php:334
+#: admin/class-admin-notices.php:337
 msgid "The review action value was not set"
 msgstr "Atsauksmes darbības vērtība netika iestatīta"
 
 #: admin/class-ajax.php:60
 #: admin/class-ajax.php:206
-#: admin/class-ajax.php:583
-#: admin/class-ajax.php:790
+#: admin/class-ajax.php:589
+#: admin/class-ajax.php:796
 msgid "The post ID was not set"
 msgstr "Ieraksta ID netika iestatīts"
 
 #: admin/class-ajax.php:64
 #: admin/class-ajax.php:210
-#: admin/class-ajax.php:587
+#: admin/class-ajax.php:593
 msgid "You do not have permission to view this information for this post."
 msgstr "Jums nav atļaujas skatīt šo informāciju par šo ierakstu."
 
@@ -268,6 +270,8 @@ msgstr "Šim saturam ir pievienots vienkāršots kopsavilkums."
 msgid "%s Error"
 msgid_plural "%s Errors"
 msgstr[0] "%s Errors"
+msgstr[1] "%s Kļūda"
+msgstr[2] "%s Kļūdas"
 
 #. translators: %s: Number of contrast errors
 #: admin/class-ajax.php:133
@@ -275,6 +279,8 @@ msgstr[0] "%s Errors"
 msgid "%s Contrast Error"
 msgid_plural "%s Contrast Errors"
 msgstr[0] "%s Contrast Errors"
+msgstr[1] "%s Kontrasta kļūda"
+msgstr[2] "%s Kontrasta kļūdas"
 
 #. translators: %s: Number of warnings
 #: admin/class-ajax.php:139
@@ -282,6 +288,8 @@ msgstr[0] "%s Contrast Errors"
 msgid "%s Warning"
 msgid_plural "%s Warnings"
 msgstr[0] "%s Warnings"
+msgstr[1] "%s Brīdinājums"
+msgstr[2] "%s Brīdinājumi"
 
 #. translators: %s: Number of ignored items
 #: admin/class-ajax.php:145
@@ -289,6 +297,8 @@ msgstr[0] "%s Warnings"
 msgid "%s Ignored Item"
 msgid_plural "%s Ignored Items"
 msgstr[0] "%s Ignored Items"
+msgstr[1] "%s Ignorētais vienums"
+msgstr[2] "%s Ignorētie vienumi"
 
 #: admin/class-ajax.php:182
 msgid "No summary to return"
@@ -315,46 +325,54 @@ msgstr "Saglabāt"
 msgid "Affected Code"
 msgstr "Ietekmētais kods"
 
+#: admin/class-ajax.php:438
+msgid "Username:"
+msgstr "Lietotājvārds:"
+
+#: admin/class-ajax.php:443
+msgid "Date:"
+msgstr "Datums:"
+
 #. Translators: %d is the issue ID.
-#: admin/class-ajax.php:499
+#: admin/class-ajax.php:505
 #, php-format
 msgid "View Issue ID %d on website, opens a new window"
 msgstr "Skatīt problēmu ar ID %d vietnē, atveras jaunā logā"
 
-#: admin/class-ajax.php:500
+#: admin/class-ajax.php:506
 msgid "View on page"
 msgstr "Skatīt lapā"
 
-#: admin/class-ajax.php:519
+#: admin/class-ajax.php:525
 msgid "Fix: "
 msgstr "Labojums: "
 
-#: admin/class-ajax.php:520
+#: admin/class-ajax.php:526
 msgid "Fix"
 msgstr "Labot"
 
-#: admin/class-ajax.php:543
+#: admin/class-ajax.php:549
 msgid "Your user account doesn't have permission to ignore this issue."
 msgstr "Jūsu lietotāja kontam nav atļaujas ignorēt šo problēmu."
 
-#: admin/class-ajax.php:560
+#: admin/class-ajax.php:566
 msgid "No details to return"
 msgstr "Nav detaļu, ko atgriezt"
 
-#: admin/class-ajax.php:694
+#: admin/class-ajax.php:700
 msgid "No readability data to return"
 msgstr "Nav lasāmības datu, ko atgriezt"
 
-#: admin/class-ajax.php:746
-#: admin/class-ajax.php:767
+#: admin/class-ajax.php:752
+#: admin/class-ajax.php:773
 msgid "No ignore data to return"
 msgstr "Nav ignorēšanas datu, ko atgriezt"
 
-#: admin/class-ajax.php:794
+#: admin/class-ajax.php:800
 msgid "The summary was not set"
 msgstr "Kopsavilkums netika iestatīts"
 
-#: admin/class-ajax.php:798
+#: admin/class-ajax.php:804
 msgid "You do not have permission to edit this post."
 msgstr "Jums nav atļaujas rediģēt šo ierakstu."
 
@@ -389,7 +407,7 @@ msgid "View Accessibility Checker Documentation (opens in new window)"
 msgstr "Skatīt Accessibility Checker dokumentāciju (atveras jaunā logā)"
 
 #: admin/class-plugin-row-meta.php:54
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation"
 msgstr "Dokumentācija"
 
@@ -450,21 +468,29 @@ msgstr "Izturētie testi"
 msgid "Unique Error"
 msgid_plural "Unique Errors"
 msgstr[0] "Unique Errors"
+msgstr[1] "Unikālā kļūda"
+msgstr[2] "Unikālās kļūdas"
 
 #: admin/class-welcome-page.php:113
 msgid "Unique Color Contrast Error"
 msgid_plural "Unique Color Contrast Errors"
 msgstr[0] "Unique Color Contrast Errors"
+msgstr[1] "Unikālā krāsu kontrasta kļūda"
+msgstr[2] "Unikālās krāsu kontrasta kļūdas"
 
 #: admin/class-welcome-page.php:138
 msgid "Unique Warning"
 msgid_plural "Unique Warnings"
 msgstr[0] "Unique Warnings"
+msgstr[1] "Unikālais brīdinājums"
+msgstr[2] "Unikālie brīdinājumi"
 
 #: admin/class-welcome-page.php:163
 msgid "Ignored Item"
 msgid_plural "Ignored Items"
 msgstr[0] "Ignored Items"
+msgstr[1] "Ignorētais vienums"
+msgstr[2] "Ignorētie vienumi"
 
 #: admin/class-welcome-page.php:180
 msgid "Average Issues Per Page"
@@ -530,7 +556,7 @@ msgstr "Sāciet pārbaudīt visu savu vietni pieejamības problēmām, iegūstie
 #: admin/class-welcome-page.php:308
 #: admin/class-widgets.php:73
 msgid "Upgrade Accessibility Checker"
-msgstr "Jaunināt Accessibility Checker"
+msgstr "Uzlabot Accessibility Checker"
 
 #: admin/class-widgets.php:69
 msgid "close ad"
@@ -592,32 +618,32 @@ msgstr "Kontrasts"
 msgid "Warnings"
 msgstr "Brīdinājumi"
 
-#: admin/class-widgets.php:247
+#: admin/class-widgets.php:248
 msgid "Upgrade to Scan"
 msgstr "Jauniniet, lai pārbaudītu"
 
-#: admin/class-widgets.php:276
+#: admin/class-widgets.php:277
 msgid "See More Reports"
 msgstr "Skatīt vairāk pārskatu"
 
-#: admin/class-widgets.php:286
-#: partials/welcome-page.php:235
+#: admin/class-widgets.php:289
+#: partials/welcome-page.php:239
 msgid "Learn Accessibility"
 msgstr "Apgūt pieejamību"
 
-#: admin/class-widgets.php:307
+#: admin/class-widgets.php:311
 msgid "Additional Resources"
 msgstr "Papildu resursi"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog (opens in a new window)"
 msgstr "Emuārs (atveras jaunā logā)"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog"
 msgstr "Emuārs"
 
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation (opens in a new window)"
 msgstr "Dokumentācija (atveras jaunā logā)"
 
@@ -717,8 +743,10 @@ msgstr "Saturs tiek pārbaudīts pieejamībai"
 #: admin/site-health/class-checks.php:177
 #, php-format
 msgid "Accessibility Checker has scanned %s post for accessibility issues."
-msgid_plural "Accessibility Checker has scanned %s post for accessibility issues."
+msgid_plural "Accessibility Checker has scanned %s posts for accessibility issues."
 msgstr[0] "Accessibility Checker has scanned %s posts for accessibility issues."
+msgstr[1] "Accessibility Checker ir skenējis %s ierakstu, meklējot pieejamības problēmas."
+msgstr[2] "Accessibility Checker ir skenējis %s ierakstus, meklējot pieejamības problēmas."
 
 #: admin/site-health/class-checks.php:196
 msgid "No post types selected for accessibility checking"
@@ -740,8 +768,10 @@ msgstr "Ierakstu veidi ir konfigurēti pieejamības pārbaudei"
 #: admin/site-health/class-checks.php:216
 #, php-format
 msgid "Accessibility Checker is configured to scan %1$s post type: %2$s."
-msgid_plural "Accessibility Checker is configured to scan %1$s post type: %2$s."
+msgid_plural "Accessibility Checker is configured to scan %1$s post types: %2$s."
 msgstr[0] "Accessibility Checker is configured to scan %1$s post types: %2$s."
+msgstr[1] "Accessibility Checker ir konfigurēts skenēt %1$s ieraksta veidu: %2$s."
+msgstr[2] "Accessibility Checker ir konfigurēts skenēt %1$s ierakstu veidus: %2$s."
 
 #: admin/site-health/class-free.php:46
 msgid "Accessibility Checker &mdash; Free"
@@ -889,8 +919,8 @@ msgid "Get Accessibility Checker Pro (opens in new window)"
 msgstr "Iegūt Accessibility Checker Pro (atveras jaunā logā)"
 
 #: includes/classes/class-simplified-summary.php:73
-#: includes/options-page.php:897
-#: includes/options-page.php:921
+#: includes/options-page.php:898
+#: includes/options-page.php:922
 msgid "Simplified Summary"
 msgstr "Vienkāršots kopsavilkums"
 
@@ -2643,57 +2673,65 @@ msgid "W3C: Understanding Guideline 1.2"
 msgstr "W3C: 1.2 vadlīnijas izpratne."
 
 #. translators: 1: a php classname, 2: an error message that was thrown about why this failed to register.
-#: includes/classes/WPCLI/BootstrapCLI.php:101
+#: includes/classes/WPCLI/BootstrapCLI.php:109
 #, php-format
 msgid "Failed to register command %1$s because %2$s"
 msgstr "Neizdevās reģistrēt komandu %1$s, jo %2$s"
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:61
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:73
+msgid "Number of orphaned posts to process in one batch."
+msgstr "Apstrādājamo bāreņu ziņu skaits vienā partijā."
+
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:80
+msgid "Seconds to sleep between deletions (default: 0)."
+msgstr "Sekundes, kas jāgaida starp dzēšanām (noklusējums: 0)."
+
+#: includes/classes/WPCLI/Command/DeleteStats.php:72
 msgid "The ID of the post to delete stats for."
 msgstr "Raksta ID, kuram dzēst statistiku."
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:83
+#: includes/classes/WPCLI/Command/DeleteStats.php:94
 msgid "No Post ID provided."
 msgstr "Nav norādīts raksta ID."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:92
+#: includes/classes/WPCLI/Command/DeleteStats.php:103
 #, php-format
 msgid "Post ID %1$s does not exist."
 msgstr "Raksta ID %1$s neeksistē."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:103
+#: includes/classes/WPCLI/Command/DeleteStats.php:114
 #, php-format
 msgid "Stats of %1$s deleted."
 msgstr "Raksta %1$s statistika ir izdzēsta."
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:67
+#: includes/classes/WPCLI/Command/GetSiteStats.php:78
 msgid "Keys to show in the results. Defaults to all keys."
 msgstr "Atslēgas, ko rādīt rezultātos. Pēc noklusējuma visas atslēgas."
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:75
+#: includes/classes/WPCLI/Command/GetSiteStats.php:86
 msgid "Clear the cache before retrieving the stats (can be intensive)."
 msgstr "Notīrīt kešatmiņu pirms statistikas iegūšanas (var būt resursietilpīgi)."
 
 #. translators: 1: a stat key that was requested but not found.
-#: includes/classes/WPCLI/Command/GetSiteStats.php:111
+#: includes/classes/WPCLI/Command/GetSiteStats.php:122
 #, php-format
 msgid "Stat key: %1$s not found in stats."
 msgstr "Statistikas atslēga: %1$s statistikā nav atrasta."
 
-#: includes/classes/WPCLI/Command/GetStats.php:85
+#: includes/classes/WPCLI/Command/GetStats.php:96
 msgid "The ID of the post to get stats for."
 msgstr "Raksta ID, kuram iegūt statistiku."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:126
+#: includes/classes/WPCLI/Command/GetStats.php:137
 #, php-format
 msgid "Post ID %1$d does not exist."
 msgstr "Raksta ID %1$d neeksistē."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:142
+#: includes/classes/WPCLI/Command/GetStats.php:153
 #, php-format
 msgid "Either the post is not yet scanned or all tests passed for post ID %1$d."
 msgstr "Vai nu raksts vēl nav skenēts, vai arī visi testi ir izturēti rakstam ar ID %1$d."
@@ -2710,12 +2748,12 @@ msgstr "pastāvīgā saite uz "
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
-#: includes/helper-functions.php:341
+#: includes/helper-functions.php:392
 msgid "Attend Free"
 msgstr "Apmeklēt bez maksas"
 
 #. translators: %s is the landmark type (e.g., "Header", "Navigation", "Main").
-#: includes/helper-functions.php:790
+#: includes/helper-functions.php:841
 #, php-format
 msgid "View %s landmark on website, opens a new window"
 msgstr "Skatīt %s orientieri vietnē, atveras jaunā logā"
@@ -2781,12 +2819,12 @@ msgid "Simplified Summary Heading"
 msgstr "Vienkāršotā kopsavilkuma virsraksts"
 
 #: includes/options-page.php:235
-#: includes/options-page.php:735
+#: includes/options-page.php:736
 msgid "Add Footer Accessibility Statement"
 msgstr "Pievienot kājenes piekļūstamības paziņojumu"
 
 #: includes/options-page.php:244
-#: includes/options-page.php:758
+#: includes/options-page.php:759
 msgid "Include Link to Accessibility Policy"
 msgstr "Iekļaut saiti uz piekļūstamības politiku"
 
@@ -2929,31 +2967,31 @@ msgstr "Vienmēr"
 msgid "Should Accessibility Checker only ask for a simplified summary when the reading level of your post or page is above 9th grade, always ask for it regardless of reading level, or never ask for it regardless of reading level?"
 msgstr "Vai Accessibility Checker vajadzētu prasīt vienkāršotu kopsavilkumu tikai tad, kad jūsu raksta vai lapas lasīšanas līmenis ir virs 9. klases, vienmēr prasīt to neatkarīgi no lasīšanas līmeņa vai nekad neprasīt to neatkarīgi no lasīšanas līmeņa?"
 
-#: includes/options-page.php:660
+#: includes/options-page.php:661
 msgid "To check content other than posts and pages, please "
 msgstr "Lai pārbaudītu citu saturu, nevis ziņas un lapas, lūdzu "
 
-#: includes/options-page.php:662
+#: includes/options-page.php:663
 msgid "upgrade to pro"
 msgstr "jaunināt uz pro versiju"
 
-#: includes/options-page.php:663
+#: includes/options-page.php:664
 msgid " (opens in a new window)"
 msgstr " (atveras jaunā logā)"
 
-#: includes/options-page.php:668
+#: includes/options-page.php:669
 msgid "Choose which post types should be checked during a scan. Please note, removing a previously selected post type will remove its scanned information and any custom ignored warnings that have been setup."
 msgstr "Izvēlieties, kuri ziņu veidi jāpārbauda skenēšanas laikā. Lūdzu, ņemiet vērā, ka iepriekš atlasīta ziņu veida noņemšana noņems tā skenēto informāciju un visus pielāgotos ignorētos brīdinājumus, kas ir iestatīti."
 
-#: includes/options-page.php:810
+#: includes/options-page.php:811
 msgid "Delete all Accessibility Checker data when the plugin is uninstalled."
 msgstr "Izdzēst visus Accessibility Checker datus, kad spraudnis tiek atinstalēts."
 
-#: includes/options-page.php:965
+#: includes/options-page.php:966
 msgid "Choose which user roles have permission to ignore issues."
 msgstr "Izvēlies, kurām lietotāju lomām ir atļauja ignorēt problēmas."
 
-#: includes/options-page.php:998
+#: includes/options-page.php:999
 msgid "Configure which user roles have access to specific Accessibility Checker features."
 msgstr "Konfigurē, kurām lietotāju lomām ir piekļuve konkrētām Accessibility Checker funkcijām."
 
@@ -4489,8 +4527,33 @@ msgid "Close fixes modal"
 msgstr "Aizvērt labojumu modālo logu"
 
 #: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Open details for %1$s, %2$s of %3$s"
+msgstr "Atvērt detalizētu informāciju par %1$s, %2$s no %3$s"
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Rescan This Page"
 msgstr "Pārskenēt šo lapu"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Accessibility Checker Tools"
+msgstr "Accessibility Checker rīki"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Close"
+msgstr "Aizvērt"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Loading..."
+msgstr "Ielādē..."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Previous"
+msgstr "Iepriekšējais"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Next"
+msgstr "Nākamais"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Disable Page Styles"
@@ -4501,8 +4564,33 @@ msgid "Disable Styles"
 msgstr "Atspējot stilus"
 
 #: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not visible. Try disabling styles."
+msgstr "Elements nav redzams. Mēģiniet atspējot stilus."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not focusable. Try disabling styles."
+msgstr "Elements nav fokusējams. Mēģiniet atspējot stilus."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element was not found on the page."
+msgstr "Elements lapā netika atrasts."
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "An error occurred when loading the issues."
 msgstr "Radās kļūda, ielādējot problēmas."
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Fix issue: %s"
+msgstr "Novērst problēmu: %s"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Fix Issue"
+msgstr "Novērst problēmu"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Full Documentation"
+msgstr "Pilna dokumentācija"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Show Code"
@@ -4532,11 +4620,15 @@ msgstr "Nav konstatētas problēmas."
 msgid "error"
 msgid_plural "errors"
 msgstr[0] "errors"
+msgstr[1] "kļūda"
+msgstr[2] "kļūdas"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "warning"
 msgid_plural "warnings"
 msgstr[0] "warnings"
+msgstr[1] "brīdinājums"
+msgstr[2] "brīdinājumi"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "and"
@@ -4546,10 +4638,17 @@ msgstr "un"
 msgid "ignored issue"
 msgid_plural "ignored issues"
 msgstr[0] "ignored issues"
+msgstr[1] "ignorētā problēma"
+msgstr[2] "ignorētās problēmas"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "detected."
 msgstr "konstatētas."
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Landmark: %s"
+msgstr "Orientieris: %s"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Scanner function not found."

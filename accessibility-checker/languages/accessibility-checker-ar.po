@@ -2,18 +2,19 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Accessibility Checker 1.31.0\n"
+"Project-Id-Version: Accessibility Checker 1.35.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accessibility-checker\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-09-04T18:22:49+00:00\n"
+"POT-Creation-Date: 2025-12-04T22:32:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: accessibility-checker\n"
 "Language: ar\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
 
 #. Plugin Name of the plugin
 #: accessibility-checker.php
@@ -22,6 +23,7 @@ msgstr ""
 #: includes/classes/class-admin-toolbar.php:53
 #: includes/options-page.php:45
 #: partials/welcome-page.php:24
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Accessibility Checker"
 msgstr "Accessibility Checker"
 
@@ -171,27 +173,27 @@ msgid "🎉 Black Friday special! 🎉"
 msgstr "🎉 عرض خاص للجمعة السوداء! 🎉"
 
 #: admin/class-admin-notices.php:130
-msgid "Upgrade to a paid version of Accessibility Checker from November 25th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
-msgstr "قم بالترقية إلى نسخة مدفوعة من Accessibility Checker من 25 نوفمبر إلى 3 ديسمبر واحصل على خصم 30٪! فحص الموقع بالكامل، تقرير المشكلات المفتوحة على مستوى الموقع، سجلات التجاهل، والمزيد."
+msgid "Upgrade to a paid version of Accessibility Checker from November 24th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
+msgstr "قم بالترقية إلى إصدار مدفوع من Accessibility Checker في الفترة من 24 نوفمبر إلى 3 ديسمبر واحصل على خصم 30%! مسح كامل للموقع، وتقرير بالمشكلات المفتوحة على مستوى الموقع، وسجلات التجاهل، والمزيد."
 
 #: admin/class-admin-notices.php:131
-#: admin/class-admin-notices.php:218
+#: admin/class-admin-notices.php:221
 msgid "Ask a Pre-Sale Question"
 msgstr "اطرح سؤالاً قبل البيع"
 
 #: admin/class-admin-notices.php:132
-#: admin/class-admin-notices.php:219
+#: admin/class-admin-notices.php:222
 msgid "Upgrade Now"
 msgstr "قم بالترقية الآن"
 
 #: admin/class-admin-notices.php:151
-#: admin/class-admin-notices.php:238
-#: admin/class-admin-notices.php:327
+#: admin/class-admin-notices.php:241
+#: admin/class-admin-notices.php:330
 #: admin/class-ajax.php:56
 #: admin/class-ajax.php:202
-#: admin/class-ajax.php:579
-#: admin/class-ajax.php:712
-#: admin/class-ajax.php:786
+#: admin/class-ajax.php:585
+#: admin/class-ajax.php:718
+#: admin/class-ajax.php:792
 #: admin/class-frontend-highlight.php:78
 #: admin/class-frontend-highlight.php:96
 #: admin/class-frontend-highlight.php:101
@@ -199,50 +201,50 @@ msgstr "قم بالترقية الآن"
 msgid "Permission Denied"
 msgstr "تم رفض الإذن"
 
-#: admin/class-admin-notices.php:160
-#: admin/class-admin-notices.php:250
-#: admin/class-admin-notices.php:347
+#: admin/class-admin-notices.php:163
+#: admin/class-admin-notices.php:253
+#: admin/class-admin-notices.php:354
 msgid "Update option wasn't successful"
 msgstr "لم تنجح عملية تحديث الخيار"
 
-#: admin/class-admin-notices.php:216
+#: admin/class-admin-notices.php:219
 msgid "🎉 Get 25% off Accessibility Checker Pro in honor of Global Accessibility Awareness Day! 🎉"
 msgstr "🎉 احصل على خصم 25٪ على Accessibility Checker Pro احتفالًا باليوم العالمي للتوعية بإمكانية الوصول! 🎉"
 
-#: admin/class-admin-notices.php:217
+#: admin/class-admin-notices.php:220
 msgid "Use coupon code GAAD25 from May 13th-May 21st to get access to full-site scanning and other pro features at a special discount. Not sure if upgrading is right for you?"
 msgstr "استخدم رمز القسيمة GAAD25 من 13 مايو إلى 21 مايو للحصول على إمكانية الفحص الكامل للموقع وميزات احترافية أخرى بخصم خاص. لست متأكدًا ما إذا كانت الترقية مناسبة لك؟?"
 
-#: admin/class-admin-notices.php:302
+#: admin/class-admin-notices.php:305
 msgid "Hello! Thank you for using Accessibility Checker as part of your accessibility toolkit. Since you've been using it for a while, would you please write a 5-star review of Accessibility Checker in the WordPress plugin directory? This will help increase our visibility so more people can learn about the importance of web accessibility. Thanks so much!"
 msgstr "مرحبًا! شكرًا لاستخدامك Accessibility Checker كجزء من مجموعة أدوات إمكانية الوصول الخاصة بك. بما أنك تستخدمه منذ فترة، هل يمكنك كتابة مراجعة من 5 نجوم لـ Accessibility Checker في دليل إضافات ووردبريس؟ سيساعد هذا في زيادة ظهورنا حتى يتمكن المزيد من الأشخاص من معرفة أهمية إمكانية الوصول إلى الويب. شكرًا جزيلًا!"
 
-#: admin/class-admin-notices.php:305
+#: admin/class-admin-notices.php:308
 msgid "Write A Review"
 msgstr "اكتب مراجعة"
 
-#: admin/class-admin-notices.php:306
+#: admin/class-admin-notices.php:309
 msgid "Remind Me In Two Weeks"
 msgstr "ذكرني بعد أسبوعين"
 
-#: admin/class-admin-notices.php:307
+#: admin/class-admin-notices.php:310
 msgid "Never Ask Again"
 msgstr "لا تسأل مرة أخرى"
 
-#: admin/class-admin-notices.php:334
+#: admin/class-admin-notices.php:337
 msgid "The review action value was not set"
 msgstr "لم يتم تعيين قيمة إجراء المراجعة"
 
 #: admin/class-ajax.php:60
 #: admin/class-ajax.php:206
-#: admin/class-ajax.php:583
-#: admin/class-ajax.php:790
+#: admin/class-ajax.php:589
+#: admin/class-ajax.php:796
 msgid "The post ID was not set"
 msgstr "لم يتم تعيين معرف المنشور"
 
 #: admin/class-ajax.php:64
 #: admin/class-ajax.php:210
-#: admin/class-ajax.php:587
+#: admin/class-ajax.php:593
 msgid "You do not have permission to view this information for this post."
 msgstr "ليس لديك إذن لعرض هذه المعلومات لهذا المنشور."
 
@@ -268,9 +270,11 @@ msgstr "تم إدراج ملخص مبسط لهذا المحتوى."
 msgid "%s Error"
 msgid_plural "%s Errors"
 msgstr[0] "%s Errors"
-msgstr[1] "%s Errors"
+msgstr[1] "%s خطأ"
 msgstr[2] "%s Errors"
 msgstr[3] "%s Errors"
+msgstr[4] "%s Errors"
+msgstr[5] "%s أخطاء"
 
 #. translators: %s: Number of contrast errors
 #: admin/class-ajax.php:133
@@ -278,9 +282,11 @@ msgstr[3] "%s Errors"
 msgid "%s Contrast Error"
 msgid_plural "%s Contrast Errors"
 msgstr[0] "%s Contrast Errors"
-msgstr[1] "%s Contrast Errors"
+msgstr[1] "%s خطأ في التباين"
 msgstr[2] "%s Contrast Errors"
 msgstr[3] "%s Contrast Errors"
+msgstr[4] "%s Contrast Errors"
+msgstr[5] "%s أخطاء في التباين"
 
 #. translators: %s: Number of warnings
 #: admin/class-ajax.php:139
@@ -288,9 +294,11 @@ msgstr[3] "%s Contrast Errors"
 msgid "%s Warning"
 msgid_plural "%s Warnings"
 msgstr[0] "%s Warnings"
-msgstr[1] "%s Warnings"
+msgstr[1] "%s تحذير"
 msgstr[2] "%s Warnings"
 msgstr[3] "%s Warnings"
+msgstr[4] "%s Warnings"
+msgstr[5] "%s تحذيرات"
 
 #. translators: %s: Number of ignored items
 #: admin/class-ajax.php:145
@@ -298,9 +306,11 @@ msgstr[3] "%s Warnings"
 msgid "%s Ignored Item"
 msgid_plural "%s Ignored Items"
 msgstr[0] "%s Ignored Items"
-msgstr[1] "%s Ignored Items"
+msgstr[1] "%s عنصر متجاهل"
 msgstr[2] "%s Ignored Items"
 msgstr[3] "%s Ignored Items"
+msgstr[4] "%s Ignored Items"
+msgstr[5] "%s عناصر متجاهلة"
 
 #: admin/class-ajax.php:182
 msgid "No summary to return"
@@ -327,46 +337,54 @@ msgstr "حفظ"
 msgid "Affected Code"
 msgstr "الكود المتأثر"
 
+#: admin/class-ajax.php:438
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+#: admin/class-ajax.php:443
+msgid "Date:"
+msgstr "التاريخ:"
+
 #. Translators: %d is the issue ID.
-#: admin/class-ajax.php:499
+#: admin/class-ajax.php:505
 #, php-format
 msgid "View Issue ID %d on website, opens a new window"
 msgstr "عرض المشكلة ذات المعرف %d على الموقع، يفتح في نافذة جديدة"
 
-#: admin/class-ajax.php:500
+#: admin/class-ajax.php:506
 msgid "View on page"
 msgstr "عرض في الصفحة"
 
-#: admin/class-ajax.php:519
+#: admin/class-ajax.php:525
 msgid "Fix: "
 msgstr "إصلاح: "
 
-#: admin/class-ajax.php:520
+#: admin/class-ajax.php:526
 msgid "Fix"
 msgstr "إصلاح"
 
-#: admin/class-ajax.php:543
+#: admin/class-ajax.php:549
 msgid "Your user account doesn't have permission to ignore this issue."
 msgstr "حساب المستخدم الخاص بك لا يملك صلاحية تجاهل هذه المشكلة."
 
-#: admin/class-ajax.php:560
+#: admin/class-ajax.php:566
 msgid "No details to return"
 msgstr "لا توجد تفاصيل للإرجاع"
 
-#: admin/class-ajax.php:694
+#: admin/class-ajax.php:700
 msgid "No readability data to return"
 msgstr "لا توجد بيانات قابلية القراءة للإرجاع"
 
-#: admin/class-ajax.php:746
-#: admin/class-ajax.php:767
+#: admin/class-ajax.php:752
+#: admin/class-ajax.php:773
 msgid "No ignore data to return"
 msgstr "لا توجد بيانات تجاهل للإرجاع"
 
-#: admin/class-ajax.php:794
+#: admin/class-ajax.php:800
 msgid "The summary was not set"
 msgstr "لم يتم تعيين الملخص"
 
-#: admin/class-ajax.php:798
+#: admin/class-ajax.php:804
 msgid "You do not have permission to edit this post."
 msgstr "ليس لديك إذن لتحرير هذا المنشور."
 
@@ -401,7 +419,7 @@ msgid "View Accessibility Checker Documentation (opens in new window)"
 msgstr "عرض وثائق Accessibility Checker (يفتح في نافذة جديدة)"
 
 #: admin/class-plugin-row-meta.php:54
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation"
 msgstr "الوثائق"
 
@@ -462,33 +480,41 @@ msgstr "الاختبارات الناجحة"
 msgid "Unique Error"
 msgid_plural "Unique Errors"
 msgstr[0] "Unique Errors"
-msgstr[1] "Unique Errors"
+msgstr[1] "خطأ فريد"
 msgstr[2] "Unique Errors"
 msgstr[3] "Unique Errors"
+msgstr[4] "Unique Errors"
+msgstr[5] "أخطاء فريدة"
 
 #: admin/class-welcome-page.php:113
 msgid "Unique Color Contrast Error"
 msgid_plural "Unique Color Contrast Errors"
 msgstr[0] "Unique Color Contrast Errors"
-msgstr[1] "Unique Color Contrast Errors"
+msgstr[1] "خطأ تباين الألوان الفريد"
 msgstr[2] "Unique Color Contrast Errors"
 msgstr[3] "Unique Color Contrast Errors"
+msgstr[4] "Unique Color Contrast Errors"
+msgstr[5] "أخطاء تباين الألوان الفريدة"
 
 #: admin/class-welcome-page.php:138
 msgid "Unique Warning"
 msgid_plural "Unique Warnings"
 msgstr[0] "Unique Warnings"
-msgstr[1] "Unique Warnings"
+msgstr[1] "تحذير فريد"
 msgstr[2] "Unique Warnings"
 msgstr[3] "Unique Warnings"
+msgstr[4] "Unique Warnings"
+msgstr[5] "تحذيرات فريدة"
 
 #: admin/class-welcome-page.php:163
 msgid "Ignored Item"
 msgid_plural "Ignored Items"
 msgstr[0] "Ignored Items"
-msgstr[1] "Ignored Items"
+msgstr[1] "عنصر متجاهل"
 msgstr[2] "Ignored Items"
 msgstr[3] "Ignored Items"
+msgstr[4] "Ignored Items"
+msgstr[5] "عناصر متجاهلة"
 
 #: admin/class-welcome-page.php:180
 msgid "Average Issues Per Page"
@@ -616,32 +642,32 @@ msgstr "التباين"
 msgid "Warnings"
 msgstr "التحذيرات"
 
-#: admin/class-widgets.php:247
+#: admin/class-widgets.php:248
 msgid "Upgrade to Scan"
 msgstr "الترقية للفحص"
 
-#: admin/class-widgets.php:276
+#: admin/class-widgets.php:277
 msgid "See More Reports"
 msgstr "رؤية المزيد من التقارير"
 
-#: admin/class-widgets.php:286
-#: partials/welcome-page.php:235
+#: admin/class-widgets.php:289
+#: partials/welcome-page.php:239
 msgid "Learn Accessibility"
 msgstr "تعلم إمكانية الوصول"
 
-#: admin/class-widgets.php:307
+#: admin/class-widgets.php:311
 msgid "Additional Resources"
 msgstr "موارد إضافية"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog (opens in a new window)"
 msgstr "المدونة (تفتح في نافذة جديدة)"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog"
 msgstr "المدونة"
 
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation (opens in a new window)"
 msgstr "الوثائق (تفتح في نافذة جديدة)"
 
@@ -741,11 +767,13 @@ msgstr "يتم فحص المحتوى لإمكانية الوصول"
 #: admin/site-health/class-checks.php:177
 #, php-format
 msgid "Accessibility Checker has scanned %s post for accessibility issues."
-msgid_plural "Accessibility Checker has scanned %s post for accessibility issues."
+msgid_plural "Accessibility Checker has scanned %s posts for accessibility issues."
 msgstr[0] "Accessibility Checker has scanned %s posts for accessibility issues."
-msgstr[1] "Accessibility Checker has scanned %s posts for accessibility issues."
+msgstr[1] "قام Accessibility Checker بفحص منشور %s للتحقق من مشاكل إمكانية الوصول."
 msgstr[2] "Accessibility Checker has scanned %s posts for accessibility issues."
 msgstr[3] "Accessibility Checker has scanned %s posts for accessibility issues."
+msgstr[4] "Accessibility Checker has scanned %s posts for accessibility issues."
+msgstr[5] "قام Accessibility Checker بفحص %s منشور للتحقق من مشاكل إمكانية الوصول."
 
 #: admin/site-health/class-checks.php:196
 msgid "No post types selected for accessibility checking"
@@ -767,11 +795,13 @@ msgstr "تم تكوين أنواع المنشورات لفحص إمكانية ا
 #: admin/site-health/class-checks.php:216
 #, php-format
 msgid "Accessibility Checker is configured to scan %1$s post type: %2$s."
-msgid_plural "Accessibility Checker is configured to scan %1$s post type: %2$s."
+msgid_plural "Accessibility Checker is configured to scan %1$s post types: %2$s."
 msgstr[0] "Accessibility Checker is configured to scan %1$s post types: %2$s."
-msgstr[1] "Accessibility Checker is configured to scan %1$s post types: %2$s."
+msgstr[1] "تم تكوين Accessibility Checker لفحص نوع منشور واحد %1$s: %2$s."
 msgstr[2] "Accessibility Checker is configured to scan %1$s post types: %2$s."
 msgstr[3] "Accessibility Checker is configured to scan %1$s post types: %2$s."
+msgstr[4] "Accessibility Checker is configured to scan %1$s post types: %2$s."
+msgstr[5] "تم تكوين Accessibility Checker لفحص %1$s نوع منشور: %2$s."
 
 #: admin/site-health/class-free.php:46
 msgid "Accessibility Checker &mdash; Free"
@@ -919,8 +949,8 @@ msgid "Get Accessibility Checker Pro (opens in new window)"
 msgstr "احصل على Accessibility Checker Pro (يفتح في نافذة جديدة)"
 
 #: includes/classes/class-simplified-summary.php:73
-#: includes/options-page.php:897
-#: includes/options-page.php:921
+#: includes/options-page.php:898
+#: includes/options-page.php:922
 msgid "Simplified Summary"
 msgstr "ملخص مبسط"
 
@@ -2673,57 +2703,65 @@ msgid "W3C: Understanding Guideline 1.2"
 msgstr "W3C: فهم المبدأ التوجيهي 1.2"
 
 #. translators: 1: a php classname, 2: an error message that was thrown about why this failed to register.
-#: includes/classes/WPCLI/BootstrapCLI.php:101
+#: includes/classes/WPCLI/BootstrapCLI.php:109
 #, php-format
 msgid "Failed to register command %1$s because %2$s"
 msgstr "فشل تسجيل الأمر %1$s بسبب %2$s"
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:61
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:73
+msgid "Number of orphaned posts to process in one batch."
+msgstr "عدد المنشورات اليتيمة التي ستتم معالجتها في دفعة واحدة."
+
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:80
+msgid "Seconds to sleep between deletions (default: 0)."
+msgstr "ثوانٍ للتوقف بين عمليات الحذف (الافتراضي: 0)."
+
+#: includes/classes/WPCLI/Command/DeleteStats.php:72
 msgid "The ID of the post to delete stats for."
 msgstr "معرف المقال لحذف الإحصائيات الخاصة به."
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:83
+#: includes/classes/WPCLI/Command/DeleteStats.php:94
 msgid "No Post ID provided."
 msgstr "لم يتم توفير معرف المقال."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:92
+#: includes/classes/WPCLI/Command/DeleteStats.php:103
 #, php-format
 msgid "Post ID %1$s does not exist."
 msgstr "معرف المقال %1$s غير موجود."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:103
+#: includes/classes/WPCLI/Command/DeleteStats.php:114
 #, php-format
 msgid "Stats of %1$s deleted."
 msgstr "تم حذف إحصائيات %1$s."
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:67
+#: includes/classes/WPCLI/Command/GetSiteStats.php:78
 msgid "Keys to show in the results. Defaults to all keys."
 msgstr "المفاتيح المراد عرضها في النتائج. الافتراضي هو جميع المفاتيح."
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:75
+#: includes/classes/WPCLI/Command/GetSiteStats.php:86
 msgid "Clear the cache before retrieving the stats (can be intensive)."
 msgstr "مسح ذاكرة التخزين المؤقت قبل استرجاع الإحصائيات (قد يكون مكثفًا)."
 
 #. translators: 1: a stat key that was requested but not found.
-#: includes/classes/WPCLI/Command/GetSiteStats.php:111
+#: includes/classes/WPCLI/Command/GetSiteStats.php:122
 #, php-format
 msgid "Stat key: %1$s not found in stats."
 msgstr "مفتاح الإحصائية: %1$s غير موجود في الإحصائيات."
 
-#: includes/classes/WPCLI/Command/GetStats.php:85
+#: includes/classes/WPCLI/Command/GetStats.php:96
 msgid "The ID of the post to get stats for."
 msgstr "معرف المقال للحصول على إحصائياته."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:126
+#: includes/classes/WPCLI/Command/GetStats.php:137
 #, php-format
 msgid "Post ID %1$d does not exist."
 msgstr "معرف المقال %1$d غير موجود."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:142
+#: includes/classes/WPCLI/Command/GetStats.php:153
 #, php-format
 msgid "Either the post is not yet scanned or all tests passed for post ID %1$d."
 msgstr "إما أن المقال لم يتم فحصه بعد أو أن جميع الاختبارات قد نجحت لمعرف المقال %1$d."
@@ -2740,12 +2778,12 @@ msgstr "الرابط الدائم إلى "
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
-#: includes/helper-functions.php:341
+#: includes/helper-functions.php:392
 msgid "Attend Free"
 msgstr "حضور مجاني"
 
 #. translators: %s is the landmark type (e.g., "Header", "Navigation", "Main").
-#: includes/helper-functions.php:790
+#: includes/helper-functions.php:841
 #, php-format
 msgid "View %s landmark on website, opens a new window"
 msgstr "عرض %s علامة مميزة على الموقع، يفتح نافذة جديدة"
@@ -2811,12 +2849,12 @@ msgid "Simplified Summary Heading"
 msgstr "عنوان الملخص المبسط"
 
 #: includes/options-page.php:235
-#: includes/options-page.php:735
+#: includes/options-page.php:736
 msgid "Add Footer Accessibility Statement"
 msgstr "إضافة بيان إمكانية الوصول في التذييل"
 
 #: includes/options-page.php:244
-#: includes/options-page.php:758
+#: includes/options-page.php:759
 msgid "Include Link to Accessibility Policy"
 msgstr "تضمين رابط لسياسة إمكانية الوصول"
 
@@ -2959,31 +2997,31 @@ msgstr "دائمًا"
 msgid "Should Accessibility Checker only ask for a simplified summary when the reading level of your post or page is above 9th grade, always ask for it regardless of reading level, or never ask for it regardless of reading level?"
 msgstr "هل يجب على Accessibility Checker أن يطلب ملخصًا مبسطًا فقط عندما يكون مستوى القراءة لمقالك أو صفحتك أعلى من الصف التاسع، أم يطلبه دائمًا بغض النظر عن مستوى القراءة، أم لا يطلبه أبدًا بغض النظر عن مستوى القراءة؟?"
 
-#: includes/options-page.php:660
+#: includes/options-page.php:661
 msgid "To check content other than posts and pages, please "
 msgstr "للتحقق من محتوى آخر غير المنشورات والصفحات، يرجى "
 
-#: includes/options-page.php:662
+#: includes/options-page.php:663
 msgid "upgrade to pro"
 msgstr "الترقية إلى النسخة الاحترافية"
 
-#: includes/options-page.php:663
+#: includes/options-page.php:664
 msgid " (opens in a new window)"
 msgstr " (يفتح في نافذة جديدة)"
 
-#: includes/options-page.php:668
+#: includes/options-page.php:669
 msgid "Choose which post types should be checked during a scan. Please note, removing a previously selected post type will remove its scanned information and any custom ignored warnings that have been setup."
 msgstr "اختر أنواع المنشورات التي يجب فحصها أثناء المسح. يرجى ملاحظة أن إزالة نوع منشور تم تحديده مسبقًا سيؤدي إلى إزالة معلومات المسح الخاصة به وأي تحذيرات مخصصة تم تجاهلها."
 
-#: includes/options-page.php:810
+#: includes/options-page.php:811
 msgid "Delete all Accessibility Checker data when the plugin is uninstalled."
 msgstr "حذف جميع بيانات Accessibility Checker عند إلغاء تثبيت الإضافة."
 
-#: includes/options-page.php:965
+#: includes/options-page.php:966
 msgid "Choose which user roles have permission to ignore issues."
 msgstr "اختر أي أدوار المستخدمين لديها إذن لتجاهل المشكلات."
 
-#: includes/options-page.php:998
+#: includes/options-page.php:999
 msgid "Configure which user roles have access to specific Accessibility Checker features."
 msgstr "قم بتكوين أدوار المستخدمين التي لديها حق الوصول إلى ميزات Accessibility Checker المحددة."
 
@@ -4519,8 +4557,33 @@ msgid "Close fixes modal"
 msgstr "إغلاق نافذة الإصلاحات"
 
 #: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Open details for %1$s, %2$s of %3$s"
+msgstr "فتح التفاصيل لـ %1$s، %2$s من %3$s"
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Rescan This Page"
 msgstr "إعادة فحص هذه الصفحة"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Accessibility Checker Tools"
+msgstr "أدوات Accessibility Checker"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Close"
+msgstr "إغلاق"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Loading..."
+msgstr "جارٍ التحميل..."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Previous"
+msgstr "السابق"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Next"
+msgstr "التالي"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Disable Page Styles"
@@ -4531,8 +4594,33 @@ msgid "Disable Styles"
 msgstr "تعطيل الأنماط"
 
 #: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not visible. Try disabling styles."
+msgstr "العنصر غير مرئي. حاول تعطيل الأنماط."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not focusable. Try disabling styles."
+msgstr "العنصر غير قابل للتركيز. حاول تعطيل الأنماط."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element was not found on the page."
+msgstr "لم يتم العثور على العنصر في الصفحة."
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "An error occurred when loading the issues."
 msgstr "حدث خطأ أثناء تحميل المشكلات."
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Fix issue: %s"
+msgstr "إصلاح المشكلة: %s"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Fix Issue"
+msgstr "إصلاح المشكلة"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Full Documentation"
+msgstr "الوثائق الكاملة"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Show Code"
@@ -4562,17 +4650,21 @@ msgstr "لم يتم اكتشاف أي مشاكل."
 msgid "error"
 msgid_plural "errors"
 msgstr[0] "errors"
-msgstr[1] "errors"
+msgstr[1] "خطأ"
 msgstr[2] "errors"
 msgstr[3] "errors"
+msgstr[4] "errors"
+msgstr[5] "أخطاء"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "warning"
 msgid_plural "warnings"
 msgstr[0] "warnings"
-msgstr[1] "warnings"
+msgstr[1] "تحذير"
 msgstr[2] "warnings"
 msgstr[3] "warnings"
+msgstr[4] "warnings"
+msgstr[5] "تحذيرات"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "and"
@@ -4582,13 +4674,20 @@ msgstr "و"
 msgid "ignored issue"
 msgid_plural "ignored issues"
 msgstr[0] "ignored issues"
-msgstr[1] "ignored issues"
+msgstr[1] "مشكلة تم تجاهلها"
 msgstr[2] "ignored issues"
 msgstr[3] "ignored issues"
+msgstr[4] "ignored issues"
+msgstr[5] "مشاكل تم تجاهلها"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "detected."
 msgstr "تم اكتشافها."
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Landmark: %s"
+msgstr "معلم: %s"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Scanner function not found."

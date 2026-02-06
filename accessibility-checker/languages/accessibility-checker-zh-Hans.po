@@ -2,18 +2,19 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Accessibility Checker 1.31.0\n"
+"Project-Id-Version: Accessibility Checker 1.35.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accessibility-checker\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-09-04T18:22:49+00:00\n"
+"POT-Creation-Date: 2025-12-04T22:32:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: accessibility-checker\n"
-"Language: zh@Hans\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Plugin Name of the plugin
 #: accessibility-checker.php
@@ -22,6 +23,7 @@ msgstr ""
 #: includes/classes/class-admin-toolbar.php:53
 #: includes/options-page.php:45
 #: partials/welcome-page.php:24
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Accessibility Checker"
 msgstr "Accessibility Checker"
 
@@ -171,27 +173,27 @@ msgid "🎉 Black Friday special! 🎉"
 msgstr "🎉 黑色星期五特惠！🎉"
 
 #: admin/class-admin-notices.php:130
-msgid "Upgrade to a paid version of Accessibility Checker from November 25th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
-msgstr "从 11 月 25 日至 12 月 3 日升级到 Accessibility Checker 付费版，即可享受 7 折优惠！全站扫描、全站开放问题报告、忽略日志等更多功能。"
+msgid "Upgrade to a paid version of Accessibility Checker from November 24th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
+msgstr "在 11 月 24 日至 12 月 3 日期间升级到 Accessibility Checker 付费版，即可享受七折优惠！包括全站扫描、全站开放问题报告、忽略日志等功能。"
 
 #: admin/class-admin-notices.php:131
-#: admin/class-admin-notices.php:218
+#: admin/class-admin-notices.php:221
 msgid "Ask a Pre-Sale Question"
 msgstr "提出售前问题"
 
 #: admin/class-admin-notices.php:132
-#: admin/class-admin-notices.php:219
+#: admin/class-admin-notices.php:222
 msgid "Upgrade Now"
 msgstr "立即升级"
 
 #: admin/class-admin-notices.php:151
-#: admin/class-admin-notices.php:238
-#: admin/class-admin-notices.php:327
+#: admin/class-admin-notices.php:241
+#: admin/class-admin-notices.php:330
 #: admin/class-ajax.php:56
 #: admin/class-ajax.php:202
-#: admin/class-ajax.php:579
-#: admin/class-ajax.php:712
-#: admin/class-ajax.php:786
+#: admin/class-ajax.php:585
+#: admin/class-ajax.php:718
+#: admin/class-ajax.php:792
 #: admin/class-frontend-highlight.php:78
 #: admin/class-frontend-highlight.php:96
 #: admin/class-frontend-highlight.php:101
@@ -199,50 +201,50 @@ msgstr "立即升级"
 msgid "Permission Denied"
 msgstr "权限被拒绝"
 
-#: admin/class-admin-notices.php:160
-#: admin/class-admin-notices.php:250
-#: admin/class-admin-notices.php:347
+#: admin/class-admin-notices.php:163
+#: admin/class-admin-notices.php:253
+#: admin/class-admin-notices.php:354
 msgid "Update option wasn't successful"
 msgstr "更新选项未成功"
 
-#: admin/class-admin-notices.php:216
+#: admin/class-admin-notices.php:219
 msgid "🎉 Get 25% off Accessibility Checker Pro in honor of Global Accessibility Awareness Day! 🎉"
 msgstr "🎉 为庆祝全球无障碍意识日，Accessibility Checker Pro 现在 7.5 折优惠！🎉"
 
-#: admin/class-admin-notices.php:217
+#: admin/class-admin-notices.php:220
 msgid "Use coupon code GAAD25 from May 13th-May 21st to get access to full-site scanning and other pro features at a special discount. Not sure if upgrading is right for you?"
 msgstr "从5月13日至5月21日，使用优惠码GAAD25，以特别折扣价格获得全站扫描和其他专业功能。不确定升级是否适合您？"
 
-#: admin/class-admin-notices.php:302
+#: admin/class-admin-notices.php:305
 msgid "Hello! Thank you for using Accessibility Checker as part of your accessibility toolkit. Since you've been using it for a while, would you please write a 5-star review of Accessibility Checker in the WordPress plugin directory? This will help increase our visibility so more people can learn about the importance of web accessibility. Thanks so much!"
 msgstr "您好！感谢您使用 Accessibility Checker 作为您的无障碍工具包的一部分。既然您已经使用它一段时间了，能否请您在 WordPress 插件目录中为 Accessibility Checker 写一个 5 星评价？这将有助于提高我们的知名度，让更多人了解网络无障碍的重要性。非常感谢！"
 
-#: admin/class-admin-notices.php:305
+#: admin/class-admin-notices.php:308
 msgid "Write A Review"
 msgstr "写评价"
 
-#: admin/class-admin-notices.php:306
+#: admin/class-admin-notices.php:309
 msgid "Remind Me In Two Weeks"
 msgstr "两周后提醒我"
 
-#: admin/class-admin-notices.php:307
+#: admin/class-admin-notices.php:310
 msgid "Never Ask Again"
 msgstr "不再询问"
 
-#: admin/class-admin-notices.php:334
+#: admin/class-admin-notices.php:337
 msgid "The review action value was not set"
 msgstr "评价操作值未设置"
 
 #: admin/class-ajax.php:60
 #: admin/class-ajax.php:206
-#: admin/class-ajax.php:583
-#: admin/class-ajax.php:790
+#: admin/class-ajax.php:589
+#: admin/class-ajax.php:796
 msgid "The post ID was not set"
 msgstr "未设置帖子 ID"
 
 #: admin/class-ajax.php:64
 #: admin/class-ajax.php:210
-#: admin/class-ajax.php:587
+#: admin/class-ajax.php:593
 msgid "You do not have permission to view this information for this post."
 msgstr "您没有权限查看此帖子的此信息。"
 
@@ -267,32 +269,28 @@ msgstr "本内容包含一个简化摘要。"
 #, php-format
 msgid "%s Error"
 msgid_plural "%s Errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s 错误"
 
 #. translators: %s: Number of contrast errors
 #: admin/class-ajax.php:133
 #, php-format
 msgid "%s Contrast Error"
 msgid_plural "%s Contrast Errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s 对比度错误"
 
 #. translators: %s: Number of warnings
 #: admin/class-ajax.php:139
 #, php-format
 msgid "%s Warning"
 msgid_plural "%s Warnings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s 警告"
 
 #. translators: %s: Number of ignored items
 #: admin/class-ajax.php:145
 #, php-format
 msgid "%s Ignored Item"
 msgid_plural "%s Ignored Items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s 被忽略的项目"
 
 #: admin/class-ajax.php:182
 msgid "No summary to return"
@@ -319,46 +317,54 @@ msgstr "节省"
 msgid "Affected Code"
 msgstr "受影响的代码"
 
+#: admin/class-ajax.php:438
+msgid "Username:"
+msgstr "用户名："
+
+#: admin/class-ajax.php:443
+msgid "Date:"
+msgstr "日期："
+
 #. Translators: %d is the issue ID.
-#: admin/class-ajax.php:499
+#: admin/class-ajax.php:505
 #, php-format
 msgid "View Issue ID %d on website, opens a new window"
 msgstr "在网站上查看问题 ID %d，打开一个新窗口"
 
-#: admin/class-ajax.php:500
+#: admin/class-ajax.php:506
 msgid "View on page"
 msgstr "在页面上查看"
 
-#: admin/class-ajax.php:519
+#: admin/class-ajax.php:525
 msgid "Fix: "
 msgstr "修复： "
 
-#: admin/class-ajax.php:520
+#: admin/class-ajax.php:526
 msgid "Fix"
 msgstr "修复"
 
-#: admin/class-ajax.php:543
+#: admin/class-ajax.php:549
 msgid "Your user account doesn't have permission to ignore this issue."
 msgstr "您的用户账户没有权限忽略此问题。"
 
-#: admin/class-ajax.php:560
+#: admin/class-ajax.php:566
 msgid "No details to return"
 msgstr "没有返回的详细信息"
 
-#: admin/class-ajax.php:694
+#: admin/class-ajax.php:700
 msgid "No readability data to return"
 msgstr "无可读性数据返回"
 
-#: admin/class-ajax.php:746
-#: admin/class-ajax.php:767
+#: admin/class-ajax.php:752
+#: admin/class-ajax.php:773
 msgid "No ignore data to return"
 msgstr "没有要返回的忽略数据"
 
-#: admin/class-ajax.php:794
+#: admin/class-ajax.php:800
 msgid "The summary was not set"
 msgstr "未设置摘要"
 
-#: admin/class-ajax.php:798
+#: admin/class-ajax.php:804
 msgid "You do not have permission to edit this post."
 msgstr "您没有权限编辑此帖子。"
 
@@ -393,7 +399,7 @@ msgid "View Accessibility Checker Documentation (opens in new window)"
 msgstr "查看 Accessibility Checker 文档（在新窗口中打开）"
 
 #: admin/class-plugin-row-meta.php:54
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation"
 msgstr "文档"
 
@@ -453,26 +459,22 @@ msgstr "通过的测试"
 #: admin/class-welcome-page.php:88
 msgid "Unique Error"
 msgid_plural "Unique Errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "独特错误"
 
 #: admin/class-welcome-page.php:113
 msgid "Unique Color Contrast Error"
 msgid_plural "Unique Color Contrast Errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "独特的颜色对比度错误"
 
 #: admin/class-welcome-page.php:138
 msgid "Unique Warning"
 msgid_plural "Unique Warnings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "独特警告"
 
 #: admin/class-welcome-page.php:163
 msgid "Ignored Item"
 msgid_plural "Ignored Items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "忽略的项目"
 
 #: admin/class-welcome-page.php:180
 msgid "Average Issues Per Page"
@@ -600,32 +602,32 @@ msgstr "对比度"
 msgid "Warnings"
 msgstr "警告"
 
-#: admin/class-widgets.php:247
+#: admin/class-widgets.php:248
 msgid "Upgrade to Scan"
 msgstr "升级以扫描"
 
-#: admin/class-widgets.php:276
+#: admin/class-widgets.php:277
 msgid "See More Reports"
 msgstr "查看更多报告"
 
-#: admin/class-widgets.php:286
-#: partials/welcome-page.php:235
+#: admin/class-widgets.php:289
+#: partials/welcome-page.php:239
 msgid "Learn Accessibility"
 msgstr "学习无障碍"
 
-#: admin/class-widgets.php:307
+#: admin/class-widgets.php:311
 msgid "Additional Resources"
 msgstr "更多资源"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog (opens in a new window)"
 msgstr "博客（在新窗口中打开）"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog"
 msgstr "博客"
 
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation (opens in a new window)"
 msgstr "文档（在新窗口中打开）"
 
@@ -725,9 +727,8 @@ msgstr "正在检查内容的无障碍性"
 #: admin/site-health/class-checks.php:177
 #, php-format
 msgid "Accessibility Checker has scanned %s post for accessibility issues."
-msgid_plural "Accessibility Checker has scanned %s post for accessibility issues."
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "Accessibility Checker has scanned %s posts for accessibility issues."
+msgstr[0] "Accessibility Checker 已扫描 %s 篇文章的无障碍问题。"
 
 #: admin/site-health/class-checks.php:196
 msgid "No post types selected for accessibility checking"
@@ -749,9 +750,8 @@ msgstr "已配置用于无障碍检查的文章类型"
 #: admin/site-health/class-checks.php:216
 #, php-format
 msgid "Accessibility Checker is configured to scan %1$s post type: %2$s."
-msgid_plural "Accessibility Checker is configured to scan %1$s post type: %2$s."
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "Accessibility Checker is configured to scan %1$s post types: %2$s."
+msgstr[0] "Accessibility Checker 已配置为扫描 %1$s 种文章类型：%2$s。"
 
 #: admin/site-health/class-free.php:46
 msgid "Accessibility Checker &mdash; Free"
@@ -899,8 +899,8 @@ msgid "Get Accessibility Checker Pro (opens in new window)"
 msgstr "获取 Accessibility Checker Pro（在新窗口中打开）"
 
 #: includes/classes/class-simplified-summary.php:73
-#: includes/options-page.php:897
-#: includes/options-page.php:921
+#: includes/options-page.php:898
+#: includes/options-page.php:922
 msgid "Simplified Summary"
 msgstr "简化摘要"
 
@@ -2653,57 +2653,65 @@ msgid "W3C: Understanding Guideline 1.2"
 msgstr "W3C：理解指南 1.2"
 
 #. translators: 1: a php classname, 2: an error message that was thrown about why this failed to register.
-#: includes/classes/WPCLI/BootstrapCLI.php:101
+#: includes/classes/WPCLI/BootstrapCLI.php:109
 #, php-format
 msgid "Failed to register command %1$s because %2$s"
 msgstr "注册命令%1$s失败，因为%2$s"
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:61
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:73
+msgid "Number of orphaned posts to process in one batch."
+msgstr "一次处理的孤立文章数量。"
+
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:80
+msgid "Seconds to sleep between deletions (default: 0)."
+msgstr "两次删除之间暂停的秒数（默认值：0）。"
+
+#: includes/classes/WPCLI/Command/DeleteStats.php:72
 msgid "The ID of the post to delete stats for."
 msgstr "要删除统计数据的文章ID。"
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:83
+#: includes/classes/WPCLI/Command/DeleteStats.php:94
 msgid "No Post ID provided."
 msgstr "未提供文章ID。"
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:92
+#: includes/classes/WPCLI/Command/DeleteStats.php:103
 #, php-format
 msgid "Post ID %1$s does not exist."
 msgstr "文章ID %1$s不存在。"
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:103
+#: includes/classes/WPCLI/Command/DeleteStats.php:114
 #, php-format
 msgid "Stats of %1$s deleted."
 msgstr "已删除%1$s的统计数据。"
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:67
+#: includes/classes/WPCLI/Command/GetSiteStats.php:78
 msgid "Keys to show in the results. Defaults to all keys."
 msgstr "要在结果中显示的键。默认为所有键。"
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:75
+#: includes/classes/WPCLI/Command/GetSiteStats.php:86
 msgid "Clear the cache before retrieving the stats (can be intensive)."
 msgstr "在检索统计数据之前清除缓存（可能会很耗资源）。"
 
 #. translators: 1: a stat key that was requested but not found.
-#: includes/classes/WPCLI/Command/GetSiteStats.php:111
+#: includes/classes/WPCLI/Command/GetSiteStats.php:122
 #, php-format
 msgid "Stat key: %1$s not found in stats."
 msgstr "统计键：%1$s在统计数据中未找到。"
 
-#: includes/classes/WPCLI/Command/GetStats.php:85
+#: includes/classes/WPCLI/Command/GetStats.php:96
 msgid "The ID of the post to get stats for."
 msgstr "要获取统计数据的文章ID。"
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:126
+#: includes/classes/WPCLI/Command/GetStats.php:137
 #, php-format
 msgid "Post ID %1$d does not exist."
 msgstr "文章ID %1$d不存在。"
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:142
+#: includes/classes/WPCLI/Command/GetStats.php:153
 #, php-format
 msgid "Either the post is not yet scanned or all tests passed for post ID %1$d."
 msgstr "文章ID %1$d或尚未扫描，或所有测试均已通过。"
@@ -2720,12 +2728,12 @@ msgstr "固定链接到 "
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
-#: includes/helper-functions.php:341
+#: includes/helper-functions.php:392
 msgid "Attend Free"
 msgstr "免费参加"
 
 #. translators: %s is the landmark type (e.g., "Header", "Navigation", "Main").
-#: includes/helper-functions.php:790
+#: includes/helper-functions.php:841
 #, php-format
 msgid "View %s landmark on website, opens a new window"
 msgstr "在网站上查看 %s 地标，将在新窗口中打开"
@@ -2791,12 +2799,12 @@ msgid "Simplified Summary Heading"
 msgstr "简化摘要标题"
 
 #: includes/options-page.php:235
-#: includes/options-page.php:735
+#: includes/options-page.php:736
 msgid "Add Footer Accessibility Statement"
 msgstr "添加页脚无障碍声明"
 
 #: includes/options-page.php:244
-#: includes/options-page.php:758
+#: includes/options-page.php:759
 msgid "Include Link to Accessibility Policy"
 msgstr "包含无障碍政策链接"
 
@@ -2939,31 +2947,31 @@ msgstr "始终"
 msgid "Should Accessibility Checker only ask for a simplified summary when the reading level of your post or page is above 9th grade, always ask for it regardless of reading level, or never ask for it regardless of reading level?"
 msgstr "Accessibility Checker 是否应该只在您的文章或页面的阅读水平高于 9 年级时要求简化摘要，还是无论阅读水平如何都始终要求，或者无论阅读水平如何都从不要求？"
 
-#: includes/options-page.php:660
+#: includes/options-page.php:661
 msgid "To check content other than posts and pages, please "
 msgstr "要检查文章和页面以外的内容，请 "
 
-#: includes/options-page.php:662
+#: includes/options-page.php:663
 msgid "upgrade to pro"
 msgstr "升级为专业版"
 
-#: includes/options-page.php:663
+#: includes/options-page.php:664
 msgid " (opens in a new window)"
 msgstr " （在新窗口中打开）"
 
-#: includes/options-page.php:668
+#: includes/options-page.php:669
 msgid "Choose which post types should be checked during a scan. Please note, removing a previously selected post type will remove its scanned information and any custom ignored warnings that have been setup."
 msgstr "选择在扫描期间应检查哪些文章类型。请注意，移除先前选择的文章类型将删除其扫描信息和任何已设置的自定义忽略警告。"
 
-#: includes/options-page.php:810
+#: includes/options-page.php:811
 msgid "Delete all Accessibility Checker data when the plugin is uninstalled."
 msgstr "卸载插件时删除所有 Accessibility Checker 数据。"
 
-#: includes/options-page.php:965
+#: includes/options-page.php:966
 msgid "Choose which user roles have permission to ignore issues."
 msgstr "选择哪些用户角色有权忽略问题。"
 
-#: includes/options-page.php:998
+#: includes/options-page.php:999
 msgid "Configure which user roles have access to specific Accessibility Checker features."
 msgstr "配置哪些用户角色可以访问特定的 Accessibility Checker 功能。"
 
@@ -4499,8 +4507,33 @@ msgid "Close fixes modal"
 msgstr "关闭修复模态框"
 
 #: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Open details for %1$s, %2$s of %3$s"
+msgstr "打开 %1$s、%2$s（共 %3$s）的详细信息"
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Rescan This Page"
 msgstr "重新扫描此页面"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Accessibility Checker Tools"
+msgstr "Accessibility Checker 工具"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Close"
+msgstr "关闭"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Loading..."
+msgstr "正在加载..."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Previous"
+msgstr "上一个"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Next"
+msgstr "下一个"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Disable Page Styles"
@@ -4511,8 +4544,33 @@ msgid "Disable Styles"
 msgstr "禁用样式"
 
 #: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not visible. Try disabling styles."
+msgstr "元素不可见。请尝试禁用样式。"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not focusable. Try disabling styles."
+msgstr "元素不可聚焦。请尝试禁用样式。"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element was not found on the page."
+msgstr "未在页面上找到该元素。"
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "An error occurred when loading the issues."
 msgstr "加载问题时发生错误。"
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Fix issue: %s"
+msgstr "修复问题：%s"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Fix Issue"
+msgstr "修复问题"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Full Documentation"
+msgstr "完整文档"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Show Code"
@@ -4541,14 +4599,12 @@ msgstr "未检测到问题。"
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "error"
 msgid_plural "errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "错误"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "warning"
 msgid_plural "warnings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "警告"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "and"
@@ -4557,12 +4613,16 @@ msgstr "和"
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "ignored issue"
 msgid_plural "ignored issues"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "已忽略的问题"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "detected."
 msgstr "已检测到。"
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Landmark: %s"
+msgstr "地标：%s"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Scanner function not found."

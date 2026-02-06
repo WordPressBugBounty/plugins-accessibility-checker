@@ -7,36 +7,36 @@ namespace Composer\Autoload;
 class ComposerStaticInit61b1718f886504a4958c41f3d46bb148
 {
     public static $prefixLengthsPsr4 = array (
-        'E' => 
+        'E' =>
         array (
             'EqualizeDigital\\AccessibilityChecker\\Admin\\' => 43,
             'EqualizeDigital\\AccessibilityChecker\\' => 37,
         ),
-        'C' => 
+        'C' =>
         array (
             'Composer\\Installers\\' => 20,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'EqualizeDigital\\AccessibilityChecker\\Admin\\' => 
+        'EqualizeDigital\\AccessibilityChecker\\Admin\\' =>
         array (
             0 => __DIR__ . '/../..' . '/admin',
         ),
-        'EqualizeDigital\\AccessibilityChecker\\' => 
+        'EqualizeDigital\\AccessibilityChecker\\' =>
         array (
             0 => __DIR__ . '/../..' . '/includes/classes',
         ),
-        'Composer\\Installers\\' => 
+        'Composer\\Installers\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
     );
 
     public static $prefixesPsr0 = array (
-        'D' => 
+        'D' =>
         array (
-            'DaveChild\\TextStatistics' => 
+            'DaveChild\\TextStatistics' =>
             array (
                 0 => __DIR__ . '/..' . '/davechild/textstatistics/src',
             ),
@@ -189,6 +189,7 @@ class ComposerStaticInit61b1718f886504a4958c41f3d46bb148
         'EDAC\\Inc\\Summary_Generator' => __DIR__ . '/../..' . '/includes/classes/class-summary-generator.php',
         'EDAC\\Issues_Query' => __DIR__ . '/../..' . '/includes/deprecated/class-issues-query.php',
         'EDAC\\Scans_Stats' => __DIR__ . '/../..' . '/includes/deprecated/class-scans-stats.php',
+        'EqualizeDigital\\AccessibilityChecker\\Admin\\Activation_Redirect' => __DIR__ . '/../..' . '/admin/class-activation-redirect.php',
         'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesPage' => __DIR__ . '/../..' . '/admin/AdminPage/FixesPage.php',
         'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesSettingType\\Checkbox' => __DIR__ . '/../..' . '/admin/AdminPage/FixesSettingType/Checkbox.php',
         'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesSettingType\\Text' => __DIR__ . '/../..' . '/admin/AdminPage/FixesSettingType/Text.php',

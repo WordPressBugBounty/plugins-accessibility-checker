@@ -2,18 +2,19 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Accessibility Checker 1.31.0\n"
+"Project-Id-Version: Accessibility Checker 1.35.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accessibility-checker\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-09-04T18:22:49+00:00\n"
+"POT-Creation-Date: 2025-12-04T22:32:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: accessibility-checker\n"
-"Language: ru\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Plugin Name of the plugin
 #: accessibility-checker.php
@@ -22,6 +23,7 @@ msgstr ""
 #: includes/classes/class-admin-toolbar.php:53
 #: includes/options-page.php:45
 #: partials/welcome-page.php:24
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Accessibility Checker"
 msgstr "Проверка доступности"
 
@@ -171,27 +173,27 @@ msgid "🎉 Black Friday special! 🎉"
 msgstr "🎉 Специальное предложение на Черную Пятницу! 🎉"
 
 #: admin/class-admin-notices.php:130
-msgid "Upgrade to a paid version of Accessibility Checker from November 25th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
-msgstr "Обновитесь до платной версии Accessibility Checker с 25 ноября по 3 декабря и получите скидку 30%! Полное сканирование сайта, отчет о нерешенных проблемах всего сайта, журналы игнорирования и многое другое."
+msgid "Upgrade to a paid version of Accessibility Checker from November 24th to December 3rd and get 30% off! Full site scanning, site-wide open issues report, ignore logs, and more."
+msgstr "Обновите Accessibility Checker до платной версии с 24 ноября по 3 декабря и получите скидку 30 %! Полное сканирование сайта, отчет об открытых проблемах по всему сайту, журналы игнорирования и многое другое."
 
 #: admin/class-admin-notices.php:131
-#: admin/class-admin-notices.php:218
+#: admin/class-admin-notices.php:221
 msgid "Ask a Pre-Sale Question"
 msgstr "Задайте вопрос о предпродажной подготовке"
 
 #: admin/class-admin-notices.php:132
-#: admin/class-admin-notices.php:219
+#: admin/class-admin-notices.php:222
 msgid "Upgrade Now"
 msgstr "Обновляйтесь прямо сейчас"
 
 #: admin/class-admin-notices.php:151
-#: admin/class-admin-notices.php:238
-#: admin/class-admin-notices.php:327
+#: admin/class-admin-notices.php:241
+#: admin/class-admin-notices.php:330
 #: admin/class-ajax.php:56
 #: admin/class-ajax.php:202
-#: admin/class-ajax.php:579
-#: admin/class-ajax.php:712
-#: admin/class-ajax.php:786
+#: admin/class-ajax.php:585
+#: admin/class-ajax.php:718
+#: admin/class-ajax.php:792
 #: admin/class-frontend-highlight.php:78
 #: admin/class-frontend-highlight.php:96
 #: admin/class-frontend-highlight.php:101
@@ -199,50 +201,50 @@ msgstr "Обновляйтесь прямо сейчас"
 msgid "Permission Denied"
 msgstr "Разрешение отклонено"
 
-#: admin/class-admin-notices.php:160
-#: admin/class-admin-notices.php:250
-#: admin/class-admin-notices.php:347
+#: admin/class-admin-notices.php:163
+#: admin/class-admin-notices.php:253
+#: admin/class-admin-notices.php:354
 msgid "Update option wasn't successful"
 msgstr "Обновление не удалось"
 
-#: admin/class-admin-notices.php:216
+#: admin/class-admin-notices.php:219
 msgid "🎉 Get 25% off Accessibility Checker Pro in honor of Global Accessibility Awareness Day! 🎉"
 msgstr "🎉 Получите скидку 25% на Accessibility Checker Pro в честь Международного дня осведомленности о доступности! 🎉"
 
-#: admin/class-admin-notices.php:217
+#: admin/class-admin-notices.php:220
 msgid "Use coupon code GAAD25 from May 13th-May 21st to get access to full-site scanning and other pro features at a special discount. Not sure if upgrading is right for you?"
 msgstr "Используйте код купона GAAD25 с 13 по 21 мая, чтобы получить доступ к полносайтовому сканированию и другим профессиональным функциям со специальной скидкой. Не уверены, подходит ли Вам обновление?"
 
-#: admin/class-admin-notices.php:302
+#: admin/class-admin-notices.php:305
 msgid "Hello! Thank you for using Accessibility Checker as part of your accessibility toolkit. Since you've been using it for a while, would you please write a 5-star review of Accessibility Checker in the WordPress plugin directory? This will help increase our visibility so more people can learn about the importance of web accessibility. Thanks so much!"
 msgstr "Здравствуйте! Спасибо за использование Accessibility Checker в качестве части вашего набора инструментов для обеспечения доступности. Поскольку вы уже некоторое время его используете, не могли бы вы написать отзыв с оценкой 5 звезд о Accessibility Checker в каталоге плагинов WordPress? Это поможет повысить нашу видимость, чтобы больше людей узнали о важности веб-доступности. Большое спасибо!"
 
-#: admin/class-admin-notices.php:305
+#: admin/class-admin-notices.php:308
 msgid "Write A Review"
 msgstr "Написать отзыв"
 
-#: admin/class-admin-notices.php:306
+#: admin/class-admin-notices.php:309
 msgid "Remind Me In Two Weeks"
 msgstr "Напомните мне через две недели"
 
-#: admin/class-admin-notices.php:307
+#: admin/class-admin-notices.php:310
 msgid "Never Ask Again"
 msgstr "Никогда больше не спрашивайте"
 
-#: admin/class-admin-notices.php:334
+#: admin/class-admin-notices.php:337
 msgid "The review action value was not set"
 msgstr "Значение действия обзора не было установлено"
 
 #: admin/class-ajax.php:60
 #: admin/class-ajax.php:206
-#: admin/class-ajax.php:583
-#: admin/class-ajax.php:790
+#: admin/class-ajax.php:589
+#: admin/class-ajax.php:796
 msgid "The post ID was not set"
 msgstr "Идентификатор поста не был установлен"
 
 #: admin/class-ajax.php:64
 #: admin/class-ajax.php:210
-#: admin/class-ajax.php:587
+#: admin/class-ajax.php:593
 msgid "You do not have permission to view this information for this post."
 msgstr "У вас нет разрешения на просмотр этой информации для данной записи."
 
@@ -267,32 +269,36 @@ msgstr "Для этого материала включено упрощенно
 #, php-format
 msgid "%s Error"
 msgid_plural "%s Errors"
-msgstr[0] "%s Errors"
+msgstr[0] "Ошибка %s"
 msgstr[1] "%s Errors"
+msgstr[2] "%s Errors"
 
 #. translators: %s: Number of contrast errors
 #: admin/class-ajax.php:133
 #, php-format
 msgid "%s Contrast Error"
 msgid_plural "%s Contrast Errors"
-msgstr[0] "%s Contrast Errors"
+msgstr[0] "%s Ошибка контраста"
 msgstr[1] "%s Contrast Errors"
+msgstr[2] "%s Contrast Errors"
 
 #. translators: %s: Number of warnings
 #: admin/class-ajax.php:139
 #, php-format
 msgid "%s Warning"
 msgid_plural "%s Warnings"
-msgstr[0] "%s Warnings"
+msgstr[0] "Предупреждение %s"
 msgstr[1] "%s Warnings"
+msgstr[2] "%s Warnings"
 
 #. translators: %s: Number of ignored items
 #: admin/class-ajax.php:145
 #, php-format
 msgid "%s Ignored Item"
 msgid_plural "%s Ignored Items"
-msgstr[0] "%s Ignored Items"
+msgstr[0] "%s Игнорируемый элемент"
 msgstr[1] "%s Ignored Items"
+msgstr[2] "%s Ignored Items"
 
 #: admin/class-ajax.php:182
 msgid "No summary to return"
@@ -319,46 +325,54 @@ msgstr "Сохранить"
 msgid "Affected Code"
 msgstr "Затронутый код"
 
+#: admin/class-ajax.php:438
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: admin/class-ajax.php:443
+msgid "Date:"
+msgstr "Дата:"
+
 #. Translators: %d is the issue ID.
-#: admin/class-ajax.php:499
+#: admin/class-ajax.php:505
 #, php-format
 msgid "View Issue ID %d on website, opens a new window"
 msgstr "Просмотреть ID выпуска %d на сайте, откроется новое окно"
 
-#: admin/class-ajax.php:500
+#: admin/class-ajax.php:506
 msgid "View on page"
 msgstr "Просмотр на стр"
 
-#: admin/class-ajax.php:519
+#: admin/class-ajax.php:525
 msgid "Fix: "
 msgstr "Исправьте: "
 
-#: admin/class-ajax.php:520
+#: admin/class-ajax.php:526
 msgid "Fix"
 msgstr "Исправьте"
 
-#: admin/class-ajax.php:543
+#: admin/class-ajax.php:549
 msgid "Your user account doesn't have permission to ignore this issue."
 msgstr "У Вашей учетной записи нет разрешения игнорировать этот вопрос."
 
-#: admin/class-ajax.php:560
+#: admin/class-ajax.php:566
 msgid "No details to return"
 msgstr "Нет деталей для возврата"
 
-#: admin/class-ajax.php:694
+#: admin/class-ajax.php:700
 msgid "No readability data to return"
 msgstr "Нет данных о читаемости, которые можно было бы вернуть"
 
-#: admin/class-ajax.php:746
-#: admin/class-ajax.php:767
+#: admin/class-ajax.php:752
+#: admin/class-ajax.php:773
 msgid "No ignore data to return"
 msgstr "Нет данных игнорирования для возврата"
 
-#: admin/class-ajax.php:794
+#: admin/class-ajax.php:800
 msgid "The summary was not set"
 msgstr "Резюме не было составлено"
 
-#: admin/class-ajax.php:798
+#: admin/class-ajax.php:804
 msgid "You do not have permission to edit this post."
 msgstr "У вас нет разрешения на редактирование этой записи."
 
@@ -393,7 +407,7 @@ msgid "View Accessibility Checker Documentation (opens in new window)"
 msgstr "Просмотреть документацию Accessibility Checker (открывается в новом окне)"
 
 #: admin/class-plugin-row-meta.php:54
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation"
 msgstr "Документация"
 
@@ -453,26 +467,30 @@ msgstr "Пройденные тесты"
 #: admin/class-welcome-page.php:88
 msgid "Unique Error"
 msgid_plural "Unique Errors"
-msgstr[0] "Unique Errors"
+msgstr[0] "Уникальная ошибка"
 msgstr[1] "Unique Errors"
+msgstr[2] "Unique Errors"
 
 #: admin/class-welcome-page.php:113
 msgid "Unique Color Contrast Error"
 msgid_plural "Unique Color Contrast Errors"
-msgstr[0] "Unique Color Contrast Errors"
+msgstr[0] "Уникальная ошибка цветового контраста"
 msgstr[1] "Unique Color Contrast Errors"
+msgstr[2] "Unique Color Contrast Errors"
 
 #: admin/class-welcome-page.php:138
 msgid "Unique Warning"
 msgid_plural "Unique Warnings"
-msgstr[0] "Unique Warnings"
+msgstr[0] "Уникальное предупреждение"
 msgstr[1] "Unique Warnings"
+msgstr[2] "Unique Warnings"
 
 #: admin/class-welcome-page.php:163
 msgid "Ignored Item"
 msgid_plural "Ignored Items"
-msgstr[0] "Ignored Items"
+msgstr[0] "Игнорируемый элемент"
 msgstr[1] "Ignored Items"
+msgstr[2] "Ignored Items"
 
 #: admin/class-welcome-page.php:180
 msgid "Average Issues Per Page"
@@ -600,32 +618,32 @@ msgstr "Контраст"
 msgid "Warnings"
 msgstr "Предупреждения"
 
-#: admin/class-widgets.php:247
+#: admin/class-widgets.php:248
 msgid "Upgrade to Scan"
 msgstr "Обновление для сканирования"
 
-#: admin/class-widgets.php:276
+#: admin/class-widgets.php:277
 msgid "See More Reports"
 msgstr "Смотрите больше отчетов"
 
-#: admin/class-widgets.php:286
-#: partials/welcome-page.php:235
+#: admin/class-widgets.php:289
+#: partials/welcome-page.php:239
 msgid "Learn Accessibility"
 msgstr "Узнайте о доступности"
 
-#: admin/class-widgets.php:307
+#: admin/class-widgets.php:311
 msgid "Additional Resources"
 msgstr "Дополнительные ресурсы"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog (opens in a new window)"
 msgstr "Блог (открывается в новом окне)"
 
-#: admin/class-widgets.php:308
+#: admin/class-widgets.php:312
 msgid "Blog"
 msgstr "Блог"
 
-#: admin/class-widgets.php:309
+#: admin/class-widgets.php:313
 msgid "Documentation (opens in a new window)"
 msgstr "Документация (открывается в новом окне)"
 
@@ -725,9 +743,10 @@ msgstr "Контент проверяется на доступность"
 #: admin/site-health/class-checks.php:177
 #, php-format
 msgid "Accessibility Checker has scanned %s post for accessibility issues."
-msgid_plural "Accessibility Checker has scanned %s post for accessibility issues."
-msgstr[0] "Accessibility Checker has scanned %s posts for accessibility issues."
+msgid_plural "Accessibility Checker has scanned %s posts for accessibility issues."
+msgstr[0] "Accessibility Checker просканировал %s запись на наличие проблем доступности."
 msgstr[1] "Accessibility Checker has scanned %s posts for accessibility issues."
+msgstr[2] "Accessibility Checker has scanned %s posts for accessibility issues."
 
 #: admin/site-health/class-checks.php:196
 msgid "No post types selected for accessibility checking"
@@ -749,9 +768,10 @@ msgstr "Типы записей настроены для проверки до�
 #: admin/site-health/class-checks.php:216
 #, php-format
 msgid "Accessibility Checker is configured to scan %1$s post type: %2$s."
-msgid_plural "Accessibility Checker is configured to scan %1$s post type: %2$s."
-msgstr[0] "Accessibility Checker is configured to scan %1$s post types: %2$s."
+msgid_plural "Accessibility Checker is configured to scan %1$s post types: %2$s."
+msgstr[0] "Accessibility Checker настроен на сканирование %1$s типа записи: %2$s."
 msgstr[1] "Accessibility Checker is configured to scan %1$s post types: %2$s."
+msgstr[2] "Accessibility Checker is configured to scan %1$s post types: %2$s."
 
 #: admin/site-health/class-free.php:46
 msgid "Accessibility Checker &mdash; Free"
@@ -899,8 +919,8 @@ msgid "Get Accessibility Checker Pro (opens in new window)"
 msgstr "Получить Accessibility Checker Pro (откроется в новом окне)"
 
 #: includes/classes/class-simplified-summary.php:73
-#: includes/options-page.php:897
-#: includes/options-page.php:921
+#: includes/options-page.php:898
+#: includes/options-page.php:922
 msgid "Simplified Summary"
 msgstr "Упрощенное резюме"
 
@@ -2653,57 +2673,65 @@ msgid "W3C: Understanding Guideline 1.2"
 msgstr "W3C: Понимание Руководства 1.2"
 
 #. translators: 1: a php classname, 2: an error message that was thrown about why this failed to register.
-#: includes/classes/WPCLI/BootstrapCLI.php:101
+#: includes/classes/WPCLI/BootstrapCLI.php:109
 #, php-format
 msgid "Failed to register command %1$s because %2$s"
 msgstr "Не удалось зарегистрировать команду %1$s, потому что %2$s"
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:61
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:73
+msgid "Number of orphaned posts to process in one batch."
+msgstr "Количество бесхозных записей для обработки за одну партию."
+
+#: includes/classes/WPCLI/Command/CleanupOrphanedIssues.php:80
+msgid "Seconds to sleep between deletions (default: 0)."
+msgstr "Секунд для ожидания между удалениями (по умолчанию: 0)."
+
+#: includes/classes/WPCLI/Command/DeleteStats.php:72
 msgid "The ID of the post to delete stats for."
 msgstr "ID сообщения, для которого нужно удалить статистику."
 
-#: includes/classes/WPCLI/Command/DeleteStats.php:83
+#: includes/classes/WPCLI/Command/DeleteStats.php:94
 msgid "No Post ID provided."
 msgstr "Post ID не указан."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:92
+#: includes/classes/WPCLI/Command/DeleteStats.php:103
 #, php-format
 msgid "Post ID %1$s does not exist."
 msgstr "Идентификатор сообщения %1$s не существует."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/DeleteStats.php:103
+#: includes/classes/WPCLI/Command/DeleteStats.php:114
 #, php-format
 msgid "Stats of %1$s deleted."
 msgstr "Статистика %1$s удалена."
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:67
+#: includes/classes/WPCLI/Command/GetSiteStats.php:78
 msgid "Keys to show in the results. Defaults to all keys."
 msgstr "Клавиши, которые будут показаны в результатах. По умолчанию - все клавиши."
 
-#: includes/classes/WPCLI/Command/GetSiteStats.php:75
+#: includes/classes/WPCLI/Command/GetSiteStats.php:86
 msgid "Clear the cache before retrieving the stats (can be intensive)."
 msgstr "Очистите кэш перед получением статистики (может быть интенсивным)."
 
 #. translators: 1: a stat key that was requested but not found.
-#: includes/classes/WPCLI/Command/GetSiteStats.php:111
+#: includes/classes/WPCLI/Command/GetSiteStats.php:122
 #, php-format
 msgid "Stat key: %1$s not found in stats."
 msgstr "Ключ статистики: %1$s не найден в статистике."
 
-#: includes/classes/WPCLI/Command/GetStats.php:85
+#: includes/classes/WPCLI/Command/GetStats.php:96
 msgid "The ID of the post to get stats for."
 msgstr "ID поста, для которого нужно получить статистику."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:126
+#: includes/classes/WPCLI/Command/GetStats.php:137
 #, php-format
 msgid "Post ID %1$d does not exist."
 msgstr "Идентификатор сообщения %1$d не существует."
 
 #. translators: 1: a post ID.
-#: includes/classes/WPCLI/Command/GetStats.php:142
+#: includes/classes/WPCLI/Command/GetStats.php:153
 #, php-format
 msgid "Either the post is not yet scanned or all tests passed for post ID %1$d."
 msgstr "Либо пост еще не отсканирован, либо все тесты для ID поста %1$d пройдены."
@@ -2720,12 +2748,12 @@ msgstr "permalink to "
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
-#: includes/helper-functions.php:341
+#: includes/helper-functions.php:392
 msgid "Attend Free"
 msgstr "Посещайте бесплатно"
 
 #. translators: %s is the landmark type (e.g., "Header", "Navigation", "Main").
-#: includes/helper-functions.php:790
+#: includes/helper-functions.php:841
 #, php-format
 msgid "View %s landmark on website, opens a new window"
 msgstr "Просмотреть %s ориентир на сайте, открывается в новом окне"
@@ -2791,12 +2819,12 @@ msgid "Simplified Summary Heading"
 msgstr "Упрощенный заголовок сводки"
 
 #: includes/options-page.php:235
-#: includes/options-page.php:735
+#: includes/options-page.php:736
 msgid "Add Footer Accessibility Statement"
 msgstr "Добавьте заявление о доступности нижнего колонтитула"
 
 #: includes/options-page.php:244
-#: includes/options-page.php:758
+#: includes/options-page.php:759
 msgid "Include Link to Accessibility Policy"
 msgstr "Включите ссылку на политику доступности"
 
@@ -2939,31 +2967,31 @@ msgstr "Всегда"
 msgid "Should Accessibility Checker only ask for a simplified summary when the reading level of your post or page is above 9th grade, always ask for it regardless of reading level, or never ask for it regardless of reading level?"
 msgstr "Должен ли Accessibility Checker запрашивать упрощенное краткое содержание только когда уровень чтения вашей записи или страницы выше 9-го класса, всегда запрашивать его независимо от уровня чтения или никогда не запрашивать его независимо от уровня чтения?"
 
-#: includes/options-page.php:660
+#: includes/options-page.php:661
 msgid "To check content other than posts and pages, please "
 msgstr "Чтобы проверить содержимое, отличное от постов и страниц, пожалуйста "
 
-#: includes/options-page.php:662
+#: includes/options-page.php:663
 msgid "upgrade to pro"
 msgstr "перейдите на уровень pro"
 
-#: includes/options-page.php:663
+#: includes/options-page.php:664
 msgid " (opens in a new window)"
 msgstr " (открывается в новом окне)"
 
-#: includes/options-page.php:668
+#: includes/options-page.php:669
 msgid "Choose which post types should be checked during a scan. Please note, removing a previously selected post type will remove its scanned information and any custom ignored warnings that have been setup."
 msgstr "Выберите, какие типы сообщений должны быть проверены во время сканирования. Обратите внимание, что при удалении ранее выбранного типа сообщений будет удалена информация о нем, а также все настроенные предупреждения об игнорировании."
 
-#: includes/options-page.php:810
+#: includes/options-page.php:811
 msgid "Delete all Accessibility Checker data when the plugin is uninstalled."
 msgstr "Удалить все данные Accessibility Checker при удалении плагина."
 
-#: includes/options-page.php:965
+#: includes/options-page.php:966
 msgid "Choose which user roles have permission to ignore issues."
 msgstr "Выбери, какие роли пользователей имеют разрешение игнорировать проблемы."
 
-#: includes/options-page.php:998
+#: includes/options-page.php:999
 msgid "Configure which user roles have access to specific Accessibility Checker features."
 msgstr "Настрой, какие роли пользователей имеют доступ к определенным функциям Accessibility Checker."
 
@@ -4499,8 +4527,33 @@ msgid "Close fixes modal"
 msgstr "Закройте модальное окно с исправлениями"
 
 #: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Open details for %1$s, %2$s of %3$s"
+msgstr "Открыть подробности для %1$s, %2$s из %3$s"
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "Rescan This Page"
 msgstr "Пересканировать эту страницу"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Accessibility Checker Tools"
+msgstr "Инструменты Accessibility Checker"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Close"
+msgstr "Закрыть"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Next"
+msgstr "Следующий"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Disable Page Styles"
@@ -4511,8 +4564,33 @@ msgid "Disable Styles"
 msgstr "Отключите стили"
 
 #: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not visible. Try disabling styles."
+msgstr "Элемент не виден. Попробуйте отключить стили."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element is not focusable. Try disabling styles."
+msgstr "Элемент не фокусируется. Попробуйте отключить стили."
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "The element was not found on the page."
+msgstr "Элемент не найден на странице."
+
+#: build/frontendHighlighterApp.bundle.js:2
 msgid "An error occurred when loading the issues."
 msgstr "Произошла ошибка при загрузке проблем."
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Fix issue: %s"
+msgstr "Исправить проблему: %s"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Fix Issue"
+msgstr "Исправить проблему"
+
+#: build/frontendHighlighterApp.bundle.js:2
+msgid "Full Documentation"
+msgstr "Полная документация"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Show Code"
@@ -4541,14 +4619,16 @@ msgstr "Никаких проблем не обнаружено."
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "error"
 msgid_plural "errors"
-msgstr[0] "errors"
+msgstr[0] "ошибка"
 msgstr[1] "errors"
+msgstr[2] "errors"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "warning"
 msgid_plural "warnings"
-msgstr[0] "warnings"
+msgstr[0] "предупреждение"
 msgstr[1] "warnings"
+msgstr[2] "warnings"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "and"
@@ -4557,12 +4637,18 @@ msgstr "и"
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "ignored issue"
 msgid_plural "ignored issues"
-msgstr[0] "ignored issues"
+msgstr[0] "Проигнорированный вопрос"
 msgstr[1] "ignored issues"
+msgstr[2] "ignored issues"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "detected."
 msgstr "Обнаружено."
+
+#: build/frontendHighlighterApp.bundle.js:2
+#, js-format
+msgid "Landmark: %s"
+msgstr "Ориентир: %s"
 
 #: build/frontendHighlighterApp.bundle.js:2
 msgid "Scanner function not found."

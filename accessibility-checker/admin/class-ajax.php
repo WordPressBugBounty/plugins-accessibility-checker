@@ -428,14 +428,20 @@ class Ajax {
 
 					foreach ( $results as $row ) {
 
-						$id                      = (int) $row['id'];
-						$ignore                  = (int) $row['ignre'];
-						$ignore_class            = $ignore ? ' active' : '';
-						$ignore_label            = $ignore ? 'Ignored' : 'Ignore';
-						$ignore_user             = (int) $row['ignre_user'];
-						$ignore_user_info        = get_userdata( $ignore_user );
-						$ignore_username         = is_object( $ignore_user_info ) ? '<strong>Username:</strong> ' . $ignore_user_info->user_login : '';
-						$ignore_date             = ( $row['ignre_date'] && '0000-00-00 00:00:00' !== $row['ignre_date'] ) ? '<strong>Date:</strong> ' . gmdate( 'F j, Y g:i a', strtotime( esc_html( $row['ignre_date'] ) ) ) : '';
+						$id               = (int) $row['id'];
+						$ignore           = (int) $row['ignre'];
+						$ignore_class     = $ignore ? ' active' : '';
+						$ignore_label     = $ignore ? 'Ignored' : 'Ignore';
+						$ignore_user      = (int) $row['ignre_user'];
+						$ignore_user_info = get_userdata( $ignore_user );
+						$ignore_username  = is_object( $ignore_user_info )
+							? '<strong>' . esc_html__( 'Username:', 'accessibility-checker' ) . '</strong> ' . esc_html( $ignore_user_info->user_login )
+							: '';
+
+						$ignore_date_text        = $row['ignre_date'] ? edac_format_datetime_from_utc( $row['ignre_date'] ) : '';
+						$ignore_date             = $ignore_date_text
+						? '<strong>' . esc_html__( 'Date:', 'accessibility-checker' ) . '</strong> ' . esc_html( $ignore_date_text )
+						: '';
 						$ignore_comment          = esc_html( $row['ignre_comment'] );
 						$ignore_action           = $ignore ? 'disable' : 'enable';
 						$ignore_type             = $rule['rule_type'];
@@ -534,10 +540,10 @@ class Ajax {
 						$html .= ( true === $ignore_permission || ! empty( $ignore_comment ) ) ? '<label for="edac-details-rule-records-record-ignore-comment-' . $id . '">Comment</label><br>' : '';
 						$html .= ( true === $ignore_permission || ! empty( $ignore_comment ) ) ? '<textarea rows="4" class="edac-details-rule-records-record-ignore-comment" id="edac-details-rule-records-record-ignore-comment-' . $id . '" ' . $ignore_comment_disabled . '>' . $ignore_comment . '</textarea>' : '';
 
-						if ( $ignore_global ) {
-							$html .= ( true === $ignore_permission ) ? '<a href="' . admin_url( 'admin.php?page=accessibility_checker_ignored&tab=global' ) . '" class="edac-details-rule-records-record-ignore-global">Manage Globally Ignored</a>' : '';
+						if ( $ignore_global && edac_is_pro() ) {
+							$html .= ( true === $ignore_permission ) ? '<a href="' . admin_url( 'admin.php?page=accessibility_checker_ignored&tab=global' ) . '" class="edac-details-rule-records-record-ignore-global">' . __( 'Manage Globally Ignored', 'accessibility-checker' ) . '</a>' : '';
 						} else {
-							$html .= ( true === $ignore_permission ) ? '<button class="edac-details-rule-records-record-ignore-submit" data-id=' . $id . ' data-action=' . $ignore_action . ' data-type=' . $ignore_type . '>' . EDAC_SVG_IGNORE_ICON . ' <span class="edac-details-rule-records-record-ignore-submit-label">' . $ignore_submit_label . '<span></button>' : '';
+							$html .= ( true === $ignore_permission ) ? '<button class="edac-details-rule-records-record-ignore-submit" data-id="' . $id . '" data-action="' . $ignore_action . '" data-type="' . $ignore_type . '">' . EDAC_SVG_IGNORE_ICON . ' <span class="edac-details-rule-records-record-ignore-submit-label">' . $ignore_submit_label . '</span></button>' : '';
 						}
 
 						$html .= ( false === $ignore_permission && false === $ignore ) ? __( 'Your user account doesn\'t have permission to ignore this issue.', 'accessibility-checker' ) : '';
@@ -728,8 +734,8 @@ class Ajax {
 		$ignre_user           = ( 'enable' === $action ) ? get_current_user_id() : null;
 		$ignre_user_info      = ( 'enable' === $action ) ? get_userdata( $ignre_user ) : '';
 		$ignre_username       = ( 'enable' === $action ) ? $ignre_user_info->user_login : '';
-		$ignre_date           = ( 'enable' === $action ) ? gmdate( 'Y-m-d H:i:s' ) : null;
-		$ignre_date_formatted = ( 'enable' === $action ) ? gmdate( 'F j, Y g:i a', strtotime( $ignre_date ) ) : '';
+		$ignre_date           = ( 'enable' === $action ) ? edac_get_current_utc_datetime() : null;
+		$ignre_date_formatted = ( 'enable' === $action ) ? edac_format_datetime_from_utc( $ignre_date ) : '';
 		$ignre_comment        = ( 'enable' === $action && isset( $_REQUEST['comment'] ) ) ? sanitize_textarea_field( wp_unslash( $_REQUEST['comment'] ) ) : null;
 		$ignore_global        = ( 'enable' === $action && isset( $_REQUEST['ignore_global'] ) ) ? sanitize_textarea_field( wp_unslash( $_REQUEST['ignore_global'] ) ) : 0;
 
