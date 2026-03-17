@@ -167,6 +167,7 @@ return array(
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddNewWindowWarningFix' => $baseDir . '/includes/classes/Fixes/Fix/AddNewWindowWarningFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\BlockPDFUploadsFix' => $baseDir . '/includes/classes/Fixes/Fix/BlockPDFUploadsFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\CommentSearchLabelFix' => $baseDir . '/includes/classes/Fixes/Fix/CommentSearchLabelFix.php',
+    'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\EmptySearchFix' => $baseDir . '/includes/classes/Fixes/Fix/EmptySearchFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\FocusOutlineFix' => $baseDir . '/includes/classes/Fixes/Fix/FocusOutlineFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\HTMLLangAndDirFix' => $baseDir . '/includes/classes/Fixes/Fix/HTMLLangAndDirFix.php',
     'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\LinkUnderline' => $baseDir . '/includes/classes/Fixes/Fix/LinkUnderline.php',

@@ -205,6 +205,7 @@ class ComposerStaticInit61b1718f886504a4958c41f3d46bb148
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\AddNewWindowWarningFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/AddNewWindowWarningFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\BlockPDFUploadsFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/BlockPDFUploadsFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\CommentSearchLabelFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/CommentSearchLabelFix.php',
+        'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\EmptySearchFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/EmptySearchFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\FocusOutlineFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/FocusOutlineFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\HTMLLangAndDirFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/HTMLLangAndDirFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\LinkUnderline' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/LinkUnderline.php',
