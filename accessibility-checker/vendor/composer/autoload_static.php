@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit61b1718f886504a4958c41f3d46bb148
+class ComposerStaticInitdc43f50218d9d0f2eca30fc534d2d330
 {
     public static $prefixLengthsPsr4 = array (
         'E' =>
@@ -190,6 +190,8 @@ class ComposerStaticInit61b1718f886504a4958c41f3d46bb148
         'EDAC\\Issues_Query' => __DIR__ . '/../..' . '/includes/deprecated/class-issues-query.php',
         'EDAC\\Scans_Stats' => __DIR__ . '/../..' . '/includes/deprecated/class-scans-stats.php',
         'EqualizeDigital\\AccessibilityChecker\\Admin\\Activation_Redirect' => __DIR__ . '/../..' . '/admin/class-activation-redirect.php',
+        'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\AccessibilityReportsPage' => __DIR__ . '/../..' . '/admin/AdminPage/AccessibilityReportsPage.php',
+        'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\ConnectedServicesPage' => __DIR__ . '/../..' . '/admin/AdminPage/ConnectedServicesPage.php',
         'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesPage' => __DIR__ . '/../..' . '/admin/AdminPage/FixesPage.php',
         'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesSettingType\\Checkbox' => __DIR__ . '/../..' . '/admin/AdminPage/FixesSettingType/Checkbox.php',
         'EqualizeDigital\\AccessibilityChecker\\Admin\\AdminPage\\FixesSettingType\\Text' => __DIR__ . '/../..' . '/admin/AdminPage/FixesSettingType/Text.php',
@@ -215,6 +217,7 @@ class ComposerStaticInit61b1718f886504a4958c41f3d46bb148
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\SkipLinkFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/SkipLinkFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\Fix\\TabindexFix' => __DIR__ . '/../..' . '/includes/classes/Fixes/Fix/TabindexFix.php',
         'EqualizeDigital\\AccessibilityChecker\\Fixes\\FixesManager' => __DIR__ . '/../..' . '/includes/classes/Fixes/FixesManager.php',
+        'EqualizeDigital\\AccessibilityChecker\\MyDot\\Connector' => __DIR__ . '/../..' . '/includes/classes/MyDot/Connector.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\AffectedDisabilities' => __DIR__ . '/../..' . '/includes/classes/Rules/AffectedDisabilities.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\RuleInterface' => __DIR__ . '/../..' . '/includes/classes/Rules/RuleInterface.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\RuleRegistry' => __DIR__ . '/../..' . '/includes/classes/Rules/RuleRegistry.php',
@@ -272,10 +275,10 @@ class ComposerStaticInit61b1718f886504a4958c41f3d46bb148
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit61b1718f886504a4958c41f3d46bb148::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit61b1718f886504a4958c41f3d46bb148::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit61b1718f886504a4958c41f3d46bb148::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit61b1718f886504a4958c41f3d46bb148::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitdc43f50218d9d0f2eca30fc534d2d330::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitdc43f50218d9d0f2eca30fc534d2d330::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitdc43f50218d9d0f2eca30fc534d2d330::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitdc43f50218d9d0f2eca30fc534d2d330::$classMap;
 
         }, null, ClassLoader::class);
     }
