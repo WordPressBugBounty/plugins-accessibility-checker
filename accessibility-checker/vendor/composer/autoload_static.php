@@ -264,6 +264,7 @@ class ComposerStaticInitdc43f50218d9d0f2eca30fc534d2d330
         'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\TextSmallRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/TextSmallRule.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\UnderlinedTextRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/UnderlinedTextRule.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\VideoPresentRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/VideoPresentRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\SystemInfo\\SystemInfo' => __DIR__ . '/../..' . '/includes/classes/SystemInfo/SystemInfo.php',
         'EqualizeDigital\\AccessibilityChecker\\WPCLI\\BootstrapCLI' => __DIR__ . '/../..' . '/includes/classes/WPCLI/BootstrapCLI.php',
         'EqualizeDigital\\AccessibilityChecker\\WPCLI\\Command\\CLICommandInterface' => __DIR__ . '/../..' . '/includes/classes/WPCLI/Command/CLICommandInterface.php',
         'EqualizeDigital\\AccessibilityChecker\\WPCLI\\Command\\CleanupOrphanedIssues' => __DIR__ . '/../..' . '/includes/classes/WPCLI/Command/CleanupOrphanedIssues.php',

@@ -226,6 +226,7 @@ return array(
     'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\TextSmallRule' => $baseDir . '/includes/classes/Rules/Rule/TextSmallRule.php',
     'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\UnderlinedTextRule' => $baseDir . '/includes/classes/Rules/Rule/UnderlinedTextRule.php',
     'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\VideoPresentRule' => $baseDir . '/includes/classes/Rules/Rule/VideoPresentRule.php',
+    'EqualizeDigital\\AccessibilityChecker\\SystemInfo\\SystemInfo' => $baseDir . '/includes/classes/SystemInfo/SystemInfo.php',
     'EqualizeDigital\\AccessibilityChecker\\WPCLI\\BootstrapCLI' => $baseDir . '/includes/classes/WPCLI/BootstrapCLI.php',
     'EqualizeDigital\\AccessibilityChecker\\WPCLI\\Command\\CLICommandInterface' => $baseDir . '/includes/classes/WPCLI/Command/CLICommandInterface.php',
     'EqualizeDigital\\AccessibilityChecker\\WPCLI\\Command\\CleanupOrphanedIssues' => $baseDir . '/includes/classes/WPCLI/Command/CleanupOrphanedIssues.php',
