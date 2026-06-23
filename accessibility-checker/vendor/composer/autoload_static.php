@@ -248,6 +248,7 @@ class ComposerStaticInitdc43f50218d9d0f2eca30fc534d2d330
         'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkMsOfficeFileRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkMsOfficeFileRule.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkNonHtmlFileRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkNonHtmlFileRule.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkPdfRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkPdfRule.php',
+        'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkTextIsUrlRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LinkTextIsUrlRule.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LongDescriptionInvalidRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/LongDescriptionInvalidRule.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MetaViewportRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/MetaViewportRule.php',
         'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MissingFormLabelRule' => __DIR__ . '/../..' . '/includes/classes/Rules/Rule/MissingFormLabelRule.php',

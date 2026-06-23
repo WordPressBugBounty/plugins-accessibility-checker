@@ -210,6 +210,7 @@ return array(
     'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkMsOfficeFileRule' => $baseDir . '/includes/classes/Rules/Rule/LinkMsOfficeFileRule.php',
     'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkNonHtmlFileRule' => $baseDir . '/includes/classes/Rules/Rule/LinkNonHtmlFileRule.php',
     'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkPdfRule' => $baseDir . '/includes/classes/Rules/Rule/LinkPdfRule.php',
+    'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LinkTextIsUrlRule' => $baseDir . '/includes/classes/Rules/Rule/LinkTextIsUrlRule.php',
     'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\LongDescriptionInvalidRule' => $baseDir . '/includes/classes/Rules/Rule/LongDescriptionInvalidRule.php',
     'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MetaViewportRule' => $baseDir . '/includes/classes/Rules/Rule/MetaViewportRule.php',
     'EqualizeDigital\\AccessibilityChecker\\Rules\\Rule\\MissingFormLabelRule' => $baseDir . '/includes/classes/Rules/Rule/MissingFormLabelRule.php',
