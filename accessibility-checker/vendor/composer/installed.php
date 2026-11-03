@@ -1,28 +1,19 @@
 <?php return array(
     'root' => array(
         'name' => 'equalizedigital/accessibility-checker',
-        'pretty_version' => 'v1.51.1',
-        'version' => '1.51.1.0',
-        'reference' => '142302a6e7ab8f516aefab475e71a5b7f2cade1a',
+        'pretty_version' => 'v1.52.0',
+        'version' => '1.52.0.0',
+        'reference' => '7f7c05505f21ec8685acaa7a7cac1dd3bdef0843',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => false,
     ),
     'versions' => array(
-        'composer/installers' => array(
-            'pretty_version' => 'v1.12.0',
-            'version' => '1.12.0.0',
-            'reference' => 'd20a64ed3c94748397ff5973488761b22f6d3f19',
-            'type' => 'composer-plugin',
-            'install_path' => __DIR__ . '/./installers',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'davechild/textstatistics' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '2276191cfe12eb083b2604faf1038dcb31820e8a',
+            'reference' => '5ec006ceed0dc6994d9fcb11feaa5f48c0e8f8e3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../davechild/textstatistics',
             'aliases' => array(
@@ -31,25 +22,13 @@
             'dev_requirement' => false,
         ),
         'equalizedigital/accessibility-checker' => array(
-            'pretty_version' => 'v1.51.1',
-            'version' => '1.51.1.0',
-            'reference' => '142302a6e7ab8f516aefab475e71a5b7f2cade1a',
+            'pretty_version' => 'v1.52.0',
+            'version' => '1.52.0.0',
+            'reference' => '7f7c05505f21ec8685acaa7a7cac1dd3bdef0843',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
-        ),
-        'roundcube/plugin-installer' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
-        ),
-        'shama/baton' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
         ),
     ),
 );
